@@ -1,0 +1,1001 @@
+Timestamp,Customer_ID,Customer_Name,Item_Category,Item_Name,Quantity,Price_Per_Item,Total_Price,Payment_Method
+2023-06-21 10:35:45,518529,Cassidy David,Cool Drinks,son,4,17.86,71.44,Cash
+2023-04-23 19:13:55,929362,Kayla Ball,Fruits,commercial,5,7.46,37.3,Credit Card
+2023-08-13 17:13:43,390753,James Vaughn,Tea,bed,1,8.81,8.81,Debit Card
+2024-01-24 18:38:37,310934,Eric Spears,Curries,fine,1,12.62,12.62,Credit Card
+2023-04-09 14:24:55,781110,Hayley King,Ice Cream,her,5,17.69,88.45,Cash
+2023-09-25 11:22:34,671615,Edward Case,Coffee,property,1,10.58,10.58,Debit Card
+2023-05-06 04:37:27,421259,Deborah Graham,Cool Drinks,of,5,5.58,27.9,Credit Card
+2023-04-30 05:44:24,233961,Jacqueline Johnson,Ice Cream,degree,5,18.4,92.0,Cash
+2024-03-15 11:32:01,711114,Kenneth Reyes,Ice Cream,space,3,16.27,48.81,Credit Card
+2024-03-17 09:14:04,584205,Stefanie Davis,Ice Cream,morning,5,6.11,30.55,Cash
+2023-05-31 14:35:33,851827,Sarah Leblanc,Fruits,cut,5,7.64,38.199999999999996,Cash
+2023-09-05 21:27:31,950651,Nicholas Greer,Pakoras,rich,2,13.35,26.7,Credit Card
+2024-02-11 23:27:26,770201,Mr. Trevor Bartlett Jr.,Biryani,off,1,15.53,15.53,Debit Card
+2023-05-20 07:46:58,503326,Anna Gates,Ice Cream,same,2,19.14,38.28,Debit Card
+2023-12-18 14:53:02,931900,Terry Williams,Curries,break,5,15.95,79.75,Cash
+2023-08-09 11:13:32,854332,Lynn Campbell MD,Hot Soups,movement,1,19.28,19.28,Debit Card
+2023-06-25 08:30:30,117564,James Kirk,Fruits,forget,4,8.45,33.8,Credit Card
+2023-10-22 17:03:49,818009,Mark Jones,Roti,sure,4,15.41,61.64,Cash
+2023-07-08 14:07:42,797343,Regina Thomas,Hot Soups,push,3,17.24,51.72,Debit Card
+2024-02-23 15:54:28,227460,Brandon Gentry,Biryani,quite,2,11.75,23.5,Cash
+2023-12-25 01:02:05,48252,Carolyn Brown,Roti,minute,2,17.43,34.86,Credit Card
+2023-04-10 23:05:27,743095,Marie Brown,Fruits,improve,1,17.82,17.82,Cash
+2023-11-10 10:33:31,634752,Marie Johnson,Hot Beverages,recent,5,17.59,87.95,Debit Card
+2023-09-16 14:53:43,196694,Kenneth Moore,Pakoras,suggest,1,18.88,18.88,Cash
+2023-07-21 23:43:19,928153,Ross Rowe,Hot Soups,score,2,9.31,18.62,Cash
+2024-03-18 18:36:53,243001,Kelly Fowler,Salads,good,4,8.0,32.0,Debit Card
+2023-04-12 08:55:19,117438,Sheryl Castaneda,Salads,day,1,16.28,16.28,Credit Card
+2023-08-21 07:51:19,423850,Kristin Nelson,Pakoras,feel,5,17.87,89.35000000000001,Cash
+2023-05-30 23:51:34,645397,Robin Pham,Ice Cream,station,3,8.95,26.849999999999998,Debit Card
+2023-09-01 21:40:59,623329,Maria Odom,Tea,clearly,4,6.11,24.44,Debit Card
+2023-05-02 11:09:08,328674,John Jones,Fruits,level,5,12.8,64.0,Cash
+2023-06-17 00:04:19,269403,Brandon White,Cool Drinks,hotel,1,6.17,6.17,Debit Card
+2023-05-29 21:29:01,984944,Jessica Stephens,Salads,your,1,5.19,5.19,Debit Card
+2024-01-03 15:35:38,888264,Sydney Maddox,Curries,different,1,17.01,17.01,Cash
+2024-03-20 07:28:18,595665,Nicole Calderon,Ice Cream,line,5,11.27,56.349999999999994,Debit Card
+2023-11-13 16:34:22,191023,Debra Camacho,Biryani,young,2,18.26,36.52,Cash
+2023-06-10 19:41:32,210786,Rachel Price,Fruits,create,1,14.39,14.39,Debit Card
+2023-06-05 12:18:55,14716,Beth Fisher,Cool Drinks,really,5,11.77,58.849999999999994,Cash
+2024-02-21 10:37:38,460891,John Moody,Hot Beverages,onto,5,16.23,81.15,Debit Card
+2023-11-03 00:54:31,874931,Kimberly Rodriguez,Roti,hotel,3,17.41,52.230000000000004,Credit Card
+2023-06-12 23:29:57,518060,Robert Graham,Fruits,pull,3,19.67,59.010000000000005,Debit Card
+2023-10-15 07:50:34,875197,Dana Ruiz,Biryani,such,2,11.67,23.34,Cash
+2024-01-21 06:25:23,475721,Barbara Shaw,Roti,blood,5,9.27,46.349999999999994,Debit Card
+2024-01-30 03:40:36,612285,Chelsea Ashley,Biryani,less,3,16.91,50.730000000000004,Cash
+2024-01-06 15:42:02,165447,Timothy Bowers,Hot Beverages,meet,1,10.75,10.75,Debit Card
+2023-04-11 15:00:18,781633,Richard Robinson,Ice Cream,production,5,18.68,93.4,Credit Card
+2023-06-05 23:47:24,985595,Stacy Walsh,Fruits,sport,1,6.71,6.71,Credit Card
+2024-02-22 16:47:46,194033,Mary Wiggins,Roti,black,1,14.79,14.79,Debit Card
+2023-06-25 20:25:45,384498,Matthew Ho,Fruits,beautiful,2,9.22,18.44,Debit Card
+2023-09-14 10:43:49,471531,Michael Hernandez,Coffee,soon,4,10.53,42.12,Cash
+2023-12-28 15:19:03,944536,Brian Powell,Biryani,others,1,19.47,19.47,Cash
+2023-05-22 03:35:39,36650,Paul Rogers,Salads,message,4,17.23,68.92,Debit Card
+2024-01-27 09:15:20,101581,Joe Anthony,Roti,push,2,19.43,38.86,Cash
+2023-12-19 15:53:03,932610,Melissa Strong,Curries,soon,4,19.54,78.16,Credit Card
+2023-05-14 05:31:15,596592,Terri Bell,Ice Cream,near,5,12.69,63.449999999999996,Cash
+2023-06-29 19:28:02,173880,Jacob Wilson,Fruits,sense,4,6.57,26.28,Credit Card
+2023-12-20 12:58:05,996410,Jacqueline Kim,Curries,PM,2,17.85,35.7,Credit Card
+2023-06-21 04:46:16,55761,Caroline Nguyen,Salads,maintain,4,7.24,28.96,Cash
+2023-06-02 00:56:53,581785,Mrs. Tasha Mack,Cool Drinks,your,5,18.75,93.75,Debit Card
+2023-12-20 20:17:19,707603,Charles Griffith,Biryani,result,2,13.04,26.08,Cash
+2023-08-17 19:33:37,879144,Emily Dillon,Pakoras,various,4,5.93,23.72,Credit Card
+2023-12-31 17:55:12,685146,Kenneth Jones,Biryani,part,5,7.44,37.2,Debit Card
+2023-06-15 11:31:15,809937,Jorge Johnson,Ice Cream,energy,1,15.87,15.87,Credit Card
+2023-10-03 16:24:54,357687,Elizabeth Cooper,Roti,fund,4,11.51,46.04,Credit Card
+2023-12-27 20:24:57,117617,Mrs. Amanda Bean,Curries,read,1,14.14,14.14,Cash
+2023-08-06 21:42:07,330048,Melissa Richards,Hot Soups,seven,1,18.23,18.23,Debit Card
+2023-10-17 01:40:47,64080,Erica Horton,Curries,sell,4,5.95,23.8,Credit Card
+2023-04-25 15:43:12,364209,Jenna Cook,Ice Cream,answer,2,9.92,19.84,Debit Card
+2023-04-14 15:12:37,996981,Ms. Paula Lopez MD,Fruits,machine,3,7.91,23.73,Cash
+2023-11-13 07:11:35,983500,Angela Henry,Hot Beverages,sister,4,12.88,51.52,Cash
+2023-09-23 17:11:41,889015,Virginia Turner,Coffee,over,5,13.14,65.7,Cash
+2024-03-16 11:18:57,546734,Stephanie Short,Salads,recently,1,9.48,9.48,Credit Card
+2024-04-05 19:55:43,522129,Destiny Chen,Salads,tend,1,5.71,5.71,Cash
+2023-12-25 21:41:54,762180,Nathan Duncan,Biryani,clearly,5,15.82,79.1,Cash
+2023-10-14 19:51:37,136854,Kylie Freeman,Hot Beverages,common,4,15.7,62.8,Debit Card
+2023-09-12 18:28:42,940543,Kyle Flores,Coffee,avoid,5,12.06,60.300000000000004,Credit Card
+2023-10-05 18:33:18,388457,Bob Duncan Jr.,Hot Beverages,first,1,16.08,16.08,Cash
+2023-09-27 18:51:19,413067,Sean Watson,Pakoras,line,5,13.1,65.5,Cash
+2024-01-25 20:54:59,637424,Patricia Robinson,Biryani,toward,3,10.14,30.42,Cash
+2023-08-15 18:50:14,304670,John Little,Hot Soups,about,4,8.38,33.52,Debit Card
+2023-06-05 16:18:23,502364,Alexis Taylor,Ice Cream,show,4,18.59,74.36,Credit Card
+2023-09-03 12:51:19,534438,Susan Maxwell,Tea,require,2,11.8,23.6,Cash
+2024-01-03 20:17:17,458127,Derrick Morales,Roti,positive,1,8.44,8.44,Credit Card
+2023-04-16 19:21:30,180714,David Johnson,Salads,run,2,14.32,28.64,Cash
+2024-03-09 13:32:03,530255,Tiffany Boyle,Fruits,race,3,15.21,45.63,Credit Card
+2024-02-08 18:02:07,776964,Larry Yoder,Roti,real,2,12.47,24.94,Credit Card
+2023-12-07 01:30:45,598837,Matthew Pollard,Roti,PM,1,19.85,19.85,Cash
+2023-05-19 01:35:41,292659,Christina Guzman,Cool Drinks,back,5,14.3,71.5,Debit Card
+2023-05-02 11:00:31,406478,Patricia Johnson,Salads,be,1,9.32,9.32,Debit Card
+2023-09-27 20:50:53,635577,Lori Lucas MD,Tea,energy,2,5.35,10.7,Debit Card
+2023-06-12 11:30:01,899762,John Gates II,Fruits,include,1,5.78,5.78,Credit Card
+2023-05-23 22:49:45,672970,Tim Mendoza,Fruits,cause,1,13.28,13.28,Debit Card
+2023-05-22 08:59:31,327052,Penny Martin,Salads,member,1,18.58,18.58,Cash
+2024-02-19 09:23:54,437613,Brian Collins,Curries,on,4,8.98,35.92,Cash
+2023-08-31 13:08:34,650920,Derrick Smith,Tea,technology,3,12.98,38.94,Credit Card
+2023-10-04 12:35:45,31020,Lori Aguirre,Roti,be,4,6.32,25.28,Credit Card
+2023-05-22 09:25:59,559015,Chad Pittman,Ice Cream,teach,3,10.55,31.650000000000002,Credit Card
+2023-09-03 19:43:03,246433,Brian Baker,Coffee,lot,1,13.8,13.8,Credit Card
+2024-03-12 15:40:25,96638,Cassandra Fuller,Ice Cream,card,5,8.81,44.050000000000004,Credit Card
+2024-02-12 04:39:06,423250,Victoria Walker,Hot Beverages,guy,4,18.7,74.8,Cash
+2023-11-15 01:21:19,136977,Laurie Gonzalez,Biryani,always,4,6.75,27.0,Credit Card
+2024-02-16 03:14:50,56767,Jeffrey Green,Hot Beverages,second,5,5.6,28.0,Cash
+2023-08-11 15:08:56,914716,Amanda Gates,Tea,message,3,8.21,24.630000000000003,Cash
+2023-10-29 11:40:02,328693,Stacey Obrien,Curries,nothing,3,6.93,20.79,Credit Card
+2023-05-06 11:04:24,628600,Kenneth Good,Fruits,skin,5,15.34,76.7,Debit Card
+2023-12-18 03:01:47,559654,Virginia Martinez,Hot Beverages,certainly,2,17.76,35.52,Credit Card
+2023-12-04 00:47:07,245401,Lisa Rosales,Roti,either,3,15.69,47.07,Cash
+2023-09-22 14:54:34,369762,Breanna Ellis,Pakoras,tell,5,11.78,58.9,Credit Card
+2023-09-18 07:27:24,564102,Anthony Greer,Pakoras,wait,5,16.11,80.55,Cash
+2023-05-27 01:04:03,609353,Adriana Hicks,Ice Cream,administration,1,11.15,11.15,Cash
+2023-11-20 23:32:29,197332,Matthew Fletcher,Biryani,hotel,1,6.51,6.51,Debit Card
+2023-12-05 19:16:50,428763,Timothy Sullivan,Biryani,author,3,5.05,15.149999999999999,Credit Card
+2024-03-18 07:49:17,316043,Cynthia Flowers,Salads,mission,1,13.34,13.34,Debit Card
+2023-10-27 14:51:05,147377,Anna Wright,Roti,safe,2,13.63,27.26,Debit Card
+2023-10-02 02:36:12,93429,John Rodriguez,Roti,difference,3,9.44,28.32,Credit Card
+2024-01-18 19:47:11,994805,Gerald Davidson,Biryani,never,3,15.31,45.93,Credit Card
+2023-05-07 18:48:30,680979,Michael Johnson,Cool Drinks,spend,2,14.94,29.88,Credit Card
+2023-07-23 13:15:01,421812,Debra Swanson,Pakoras,data,3,16.72,50.16,Credit Card
+2023-06-01 06:23:09,459452,Lydia Bennett,Ice Cream,term,5,6.65,33.25,Cash
+2023-07-06 18:51:33,930161,Allison Hill,Pakoras,almost,1,7.61,7.61,Credit Card
+2023-05-18 09:49:36,755569,Danielle Armstrong,Fruits,determine,3,17.53,52.59,Cash
+2023-04-30 19:09:02,507590,Joseph Rodriguez,Fruits,nice,2,6.05,12.1,Credit Card
+2024-03-26 02:23:34,664472,Debra Hernandez,Salads,campaign,3,5.07,15.21,Debit Card
+2024-01-25 16:58:25,97357,Michelle Villegas,Roti,him,1,6.58,6.58,Debit Card
+2023-04-16 00:31:35,584901,Darlene Shaw,Salads,worker,3,15.09,45.269999999999996,Cash
+2023-04-30 07:14:45,52791,James Vega,Salads,issue,5,6.82,34.1,Credit Card
+2023-11-22 23:19:41,455050,Lance Jennings DDS,Curries,support,5,7.4,37.0,Cash
+2023-05-01 22:40:32,86387,Lisa Martin,Cool Drinks,police,1,14.01,14.01,Credit Card
+2023-12-18 22:23:37,140363,Crystal Randall,Biryani,professor,4,11.67,46.68,Credit Card
+2023-05-08 04:46:52,683437,Mr. Justin Rodriguez MD,Cool Drinks,also,2,9.51,19.02,Cash
+2023-12-09 16:26:09,644226,Lauren Johnson,Biryani,ten,2,7.17,14.34,Cash
+2023-11-09 05:30:35,849419,Carol Peters,Roti,off,4,7.85,31.4,Credit Card
+2023-06-09 02:52:31,617129,Vincent Ramirez,Fruits,social,2,15.3,30.6,Credit Card
+2024-02-03 02:31:11,856378,Matthew Johnson,Roti,write,5,5.66,28.3,Credit Card
+2023-10-22 16:31:53,398448,Jennifer Thompson,Hot Beverages,past,1,14.96,14.96,Cash
+2024-02-12 14:40:27,448024,Jennifer Silva,Hot Beverages,lose,2,19.25,38.5,Cash
+2023-10-17 17:40:00,95212,Nathan Caldwell,Biryani,too,2,19.37,38.74,Debit Card
+2023-04-27 11:30:38,679903,Anthony Nelson,Cool Drinks,program,5,17.0,85.0,Cash
+2024-02-10 21:32:59,189952,April Boone,Curries,worker,5,15.58,77.9,Cash
+2023-11-13 09:38:48,965858,Christopher Alvarez,Biryani,collection,4,16.67,66.68,Credit Card
+2023-10-07 00:17:10,78103,Jose Hughes,Roti,our,2,6.18,12.36,Cash
+2023-11-27 11:39:56,91950,Anthony Garcia,Roti,quality,4,9.78,39.12,Credit Card
+2023-06-02 13:07:48,36968,Sarah Mack,Fruits,budget,4,18.37,73.48,Credit Card
+2023-12-14 15:51:34,855969,Lindsey Davis,Roti,record,3,13.77,41.31,Cash
+2023-11-20 14:24:04,56301,Ms. Rachel Buckley,Curries,road,3,19.37,58.11,Cash
+2024-02-29 06:31:23,34532,Michael Roberts,Hot Beverages,firm,2,15.57,31.14,Debit Card
+2024-01-31 21:36:01,430353,Mr. Juan Snyder,Roti,then,1,6.88,6.88,Cash
+2023-08-05 23:49:04,269216,Daniel Graves,Hot Soups,type,4,5.04,20.16,Credit Card
+2023-04-21 14:20:55,738214,Philip Doyle,Cool Drinks,Congress,2,14.73,29.46,Credit Card
+2023-08-07 20:08:26,220457,Andrea Hood,Hot Soups,later,5,17.02,85.1,Debit Card
+2024-03-29 10:32:03,507663,Christopher Barker,Fruits,edge,5,13.58,67.9,Cash
+2024-03-16 01:52:08,720132,Brenda Khan,Salads,should,1,8.08,8.08,Debit Card
+2023-08-23 00:40:42,20908,Mrs. Alexa Mills,Coffee,environmental,3,7.0,21.0,Credit Card
+2023-10-07 14:33:43,86639,Megan Weber,Roti,employee,1,11.12,11.12,Debit Card
+2024-03-09 09:47:54,737992,Stephanie Young,Salads,radio,5,8.86,44.3,Debit Card
+2023-08-04 21:56:59,664593,Donald Turner,Hot Soups,old,5,14.61,73.05,Debit Card
+2023-08-30 22:01:08,536662,Jennifer Jones,Hot Soups,husband,5,8.69,43.449999999999996,Cash
+2023-09-23 18:13:02,562761,Alicia Acosta,Coffee,throughout,1,16.92,16.92,Debit Card
+2023-08-29 20:28:12,78394,Meghan Johnston,Coffee,event,2,18.11,36.22,Credit Card
+2023-05-11 08:05:12,100995,Eric Clarke,Fruits,write,3,19.8,59.400000000000006,Credit Card
+2023-09-28 07:32:40,392642,James Moore,Coffee,road,5,17.45,87.25,Credit Card
+2024-02-01 07:13:07,650477,Raymond Peterson,Hot Beverages,and,1,16.54,16.54,Debit Card
+2024-03-14 06:56:31,904716,Patrick Hoffman,Fruits,live,2,18.14,36.28,Cash
+2023-08-02 20:16:00,581874,Roberto Duncan,Tea,drop,2,16.61,33.22,Cash
+2023-05-19 00:06:32,254784,Matthew Smith,Ice Cream,natural,4,19.05,76.2,Cash
+2023-05-12 09:02:17,585430,Paul Carter,Fruits,clearly,5,7.64,38.199999999999996,Debit Card
+2023-06-08 07:35:47,861226,Leonard Wright,Ice Cream,word,2,9.55,19.1,Debit Card
+2023-05-04 21:46:12,276853,Julia Lozano,Fruits,north,4,8.04,32.16,Cash
+2023-05-25 16:23:05,445821,Valerie Bryan,Salads,article,1,12.81,12.81,Cash
+2024-01-24 23:08:42,173137,Gregory Pittman,Roti,fine,4,12.15,48.6,Credit Card
+2023-11-01 23:29:40,823307,Steven Gordon,Biryani,seek,5,14.39,71.95,Debit Card
+2023-10-03 20:57:58,866691,Matthew Mcgee,Biryani,certainly,3,11.16,33.480000000000004,Debit Card
+2023-10-13 07:35:29,378265,Tina Hess,Hot Beverages,plant,2,9.82,19.64,Debit Card
+2024-02-09 05:03:32,596475,Chad Davila,Curries,along,1,16.1,16.1,Credit Card
+2024-02-03 12:14:12,921846,Michelle Foster,Biryani,worry,1,12.27,12.27,Debit Card
+2023-05-07 19:30:40,513575,Kayla Carpenter,Ice Cream,system,1,16.34,16.34,Debit Card
+2023-12-01 17:56:16,983759,Tiffany Good,Roti,father,1,9.72,9.72,Credit Card
+2023-12-11 03:20:54,603804,Christine Hopkins,Biryani,hear,3,5.73,17.19,Debit Card
+2023-11-06 15:49:35,738288,Reginald Wiggins,Roti,phone,3,16.09,48.269999999999996,Cash
+2023-05-09 15:23:07,989857,Joseph Harper,Fruits,east,1,7.8,7.8,Cash
+2023-06-12 20:54:31,746928,Daniel Frye,Salads,respond,3,11.67,35.01,Cash
+2024-01-16 10:45:33,423447,Susan Rodgers,Biryani,create,2,6.66,13.32,Credit Card
+2023-10-05 03:26:49,640289,Beth Barber,Roti,sense,5,6.67,33.35,Credit Card
+2023-06-05 22:23:20,602295,Kayla Davis,Fruits,number,3,5.59,16.77,Credit Card
+2023-05-07 16:37:17,76629,Katrina Shelton,Salads,bit,4,18.08,72.32,Debit Card
+2023-04-18 21:50:54,385508,William Cohen,Salads,early,3,5.64,16.919999999999998,Debit Card
+2023-11-16 18:48:08,552623,Brenda Gamble,Roti,street,2,13.82,27.64,Debit Card
+2023-06-18 10:42:17,583600,Natasha Hawkins,Salads,life,2,13.6,27.2,Cash
+2023-08-08 14:23:13,936416,Samantha Hubbard,Hot Soups,relationship,5,12.56,62.800000000000004,Credit Card
+2024-01-09 22:53:49,175660,Robert Thompson,Roti,fine,4,13.31,53.24,Cash
+2024-02-24 17:23:40,982599,Erin Escobar,Biryani,sea,4,9.08,36.32,Credit Card
+2023-11-17 09:36:50,236261,Shelby Mayo,Roti,both,2,8.22,16.44,Cash
+2024-01-21 03:39:48,461623,Sheila Huffman,Roti,memory,1,11.65,11.65,Cash
+2023-04-22 00:45:07,139071,Victor Hernandez,Cool Drinks,day,5,8.1,40.5,Cash
+2023-10-15 07:19:20,600615,Kelly Wu,Hot Beverages,level,2,11.32,22.64,Credit Card
+2024-01-21 09:22:43,137563,Jason Copeland,Hot Beverages,capital,4,11.11,44.44,Cash
+2023-10-06 07:48:54,917391,Carolyn Landry,Curries,authority,5,11.24,56.2,Cash
+2023-05-06 20:31:32,991217,Elizabeth Cook,Ice Cream,against,2,6.95,13.9,Cash
+2024-02-12 13:06:15,950564,Valerie Henson,Curries,but,5,19.54,97.69999999999999,Credit Card
+2023-10-20 01:58:30,768698,Angela Cannon,Curries,almost,3,18.19,54.57000000000001,Credit Card
+2023-09-29 00:42:12,78305,Jack Bell,Hot Soups,beautiful,4,6.64,26.56,Cash
+2024-04-08 06:25:14,926409,Aimee Turner,Salads,management,4,10.28,41.12,Cash
+2023-09-15 10:47:54,101303,Diana Ball,Hot Soups,bed,3,15.13,45.39,Credit Card
+2023-10-22 07:39:57,484153,Shannon Vazquez,Roti,receive,5,11.16,55.8,Cash
+2023-10-18 01:21:43,848551,Jason Powers,Curries,join,5,10.21,51.050000000000004,Debit Card
+2024-01-17 10:59:01,784309,Laurie Miller,Curries,citizen,5,11.23,56.150000000000006,Debit Card
+2024-01-15 19:20:10,508050,Allison Smith,Roti,shake,5,15.03,75.14999999999999,Cash
+2023-09-27 20:19:47,233931,Bruce Love,Tea,charge,1,11.56,11.56,Debit Card
+2024-03-12 21:51:03,257045,Annette Jones,Fruits,professional,2,10.49,20.98,Cash
+2023-08-09 15:06:26,88198,Tommy Day,Coffee,yard,3,8.1,24.299999999999997,Credit Card
+2024-02-27 23:09:13,52517,Trevor Brown,Biryani,question,5,15.4,77.0,Debit Card
+2024-01-23 04:21:06,688297,Anna Landry,Roti,yet,5,9.61,48.05,Debit Card
+2023-12-03 01:11:51,495086,Perry Montoya,Roti,cause,1,5.59,5.59,Debit Card
+2023-04-19 12:28:41,852444,Jennifer Haas,Cool Drinks,structure,4,7.16,28.64,Credit Card
+2024-01-29 17:50:21,612883,Danielle Garcia,Hot Beverages,standard,2,6.35,12.7,Cash
+2023-10-23 01:42:15,637121,Chad Richardson,Curries,buy,1,8.1,8.1,Credit Card
+2024-02-06 06:18:05,957202,Martin Dudley,Hot Beverages,tax,2,13.86,27.72,Debit Card
+2023-07-01 07:39:22,521482,Debra Wright,Hot Soups,tell,4,18.25,73.0,Credit Card
+2023-06-13 16:16:11,587167,Mr. Brian Gibson,Cool Drinks,firm,3,7.5,22.5,Debit Card
+2023-08-15 19:43:09,910504,Marcia Thompson,Pakoras,south,1,19.9,19.9,Debit Card
+2023-12-21 00:05:28,322789,Miguel Baker,Roti,fish,1,14.52,14.52,Cash
+2023-08-05 14:40:32,655350,Caroline Johnson,Tea,major,3,10.95,32.849999999999994,Debit Card
+2023-10-16 20:37:35,590720,Steven Bright,Roti,actually,2,16.85,33.7,Cash
+2024-03-05 06:11:04,14156,Gene Ramirez,Cool Drinks,food,1,7.32,7.32,Credit Card
+2023-11-11 17:11:48,699868,Richard Kennedy,Biryani,somebody,2,10.76,21.52,Cash
+2023-11-29 20:53:37,525282,Kristine Levine,Biryani,among,1,17.21,17.21,Debit Card
+2023-12-25 03:13:12,209102,Dr. Jim Le,Hot Beverages,know,1,17.17,17.17,Credit Card
+2024-01-20 04:08:18,365942,Justin Mcmahon,Hot Beverages,time,3,9.69,29.07,Debit Card
+2024-02-18 17:51:57,616268,Kimberly Durham,Biryani,argue,1,15.46,15.46,Cash
+2023-07-05 02:07:24,544204,Jessica Lynch,Tea,least,2,19.64,39.28,Cash
+2024-03-11 10:13:38,203905,Christopher Smith DDS,Cool Drinks,method,2,16.88,33.76,Debit Card
+2023-10-12 16:18:23,881504,Michael Nichols,Curries,pay,3,18.31,54.92999999999999,Debit Card
+2023-05-30 05:22:37,520796,Marcus Butler,Ice Cream,lose,3,16.1,48.300000000000004,Debit Card
+2024-03-24 06:32:30,515877,Daniel Hamilton,Cool Drinks,beautiful,5,11.66,58.3,Cash
+2023-10-28 11:41:42,822677,Juan Smith,Curries,economic,5,10.05,50.25,Credit Card
+2023-09-20 13:37:26,145543,Steven Smith,Hot Soups,young,5,11.4,57.0,Debit Card
+2023-06-18 08:58:45,912319,Courtney Moreno,Salads,determine,5,9.69,48.449999999999996,Credit Card
+2024-01-10 04:45:17,558584,Autumn Adams,Biryani,recent,4,12.04,48.16,Credit Card
+2024-04-06 00:52:39,203138,Carrie Walters,Fruits,case,1,17.01,17.01,Cash
+2023-08-02 20:44:55,47229,Mr. Raymond Gutierrez,Hot Soups,themselves,2,14.71,29.42,Cash
+2023-12-15 15:52:38,522477,James Williams DDS,Curries,sit,4,19.07,76.28,Debit Card
+2024-01-12 02:27:51,44897,Leonard White,Biryani,development,5,9.67,48.35,Cash
+2023-09-17 00:24:21,905034,Joseph Wallace,Tea,dream,4,17.0,68.0,Credit Card
+2023-12-11 20:00:15,413526,Craig Rios,Curries,industry,3,8.57,25.71,Credit Card
+2024-01-05 04:04:08,933740,Kari Johnson,Curries,necessary,2,7.86,15.72,Credit Card
+2023-04-25 01:31:40,647427,Jennifer Kirk,Salads,fill,2,18.17,36.34,Credit Card
+2023-11-29 10:40:10,587452,Jeremy Bryant,Hot Beverages,attorney,5,9.67,48.35,Cash
+2024-03-10 08:17:03,75319,Wendy Gibson,Salads,impact,4,18.48,73.92,Debit Card
+2023-04-18 05:36:30,670663,Miss Tammie Sampson,Ice Cream,if,5,6.26,31.299999999999997,Debit Card
+2023-09-05 00:39:14,838747,William Howell,Coffee,result,2,13.28,26.56,Debit Card
+2023-08-21 22:02:46,352921,Gina Smith,Pakoras,low,5,13.94,69.7,Cash
+2023-12-08 23:02:14,27431,Phillip Richardson,Hot Beverages,itself,4,16.7,66.8,Cash
+2023-06-29 13:24:23,999193,Joseph Riddle,Cool Drinks,agree,3,11.9,35.7,Cash
+2024-02-06 11:39:58,39169,Derrick Rogers,Curries,activity,5,18.37,91.85000000000001,Credit Card
+2023-08-11 11:43:12,201269,Patricia Graham,Tea,or,1,7.68,7.68,Cash
+2023-08-26 21:06:24,299575,Jacob Davis,Pakoras,people,3,15.81,47.43,Debit Card
+2023-09-21 19:39:06,250257,Latoya Davis,Tea,practice,1,11.69,11.69,Credit Card
+2023-08-15 00:53:35,755658,Patricia Smith,Coffee,those,3,5.21,15.629999999999999,Credit Card
+2023-09-29 04:21:31,507959,Mary Brewer,Pakoras,later,2,11.5,23.0,Debit Card
+2024-03-21 04:26:10,76351,Kevin Cook,Salads,throughout,3,17.84,53.519999999999996,Credit Card
+2023-05-27 12:45:31,712403,Monique Martinez,Cool Drinks,part,2,15.79,31.58,Cash
+2023-06-23 10:36:23,129054,Isabel Newton,Fruits,machine,3,10.36,31.08,Credit Card
+2024-01-29 01:21:40,536585,Robert Shelton,Roti,trade,1,11.55,11.55,Cash
+2023-04-27 03:00:26,737704,Mr. Daniel Thompson MD,Ice Cream,easy,5,9.94,49.699999999999996,Cash
+2023-10-09 17:42:34,321005,Tammy Michael,Roti,majority,5,16.24,81.19999999999999,Debit Card
+2023-09-03 19:52:02,407697,Stephanie Kelly,Coffee,fill,4,13.74,54.96,Cash
+2023-09-18 09:38:24,48993,Anne Smith,Hot Soups,show,1,17.4,17.4,Cash
+2023-07-19 13:00:47,664546,Danielle Stephens,Tea,small,3,15.09,45.269999999999996,Credit Card
+2023-12-26 00:34:42,371641,Austin Pham,Biryani,during,5,14.6,73.0,Debit Card
+2023-12-14 07:38:43,785898,Brandon Jenkins,Roti,network,1,18.03,18.03,Cash
+2023-11-04 13:01:48,668642,Donna Perez,Roti,those,2,15.48,30.96,Debit Card
+2024-02-05 01:36:22,373973,Mary Kim,Curries,no,1,15.94,15.94,Cash
+2023-08-26 00:27:30,865995,Ashley Torres,Pakoras,road,5,15.16,75.8,Credit Card
+2024-03-31 22:34:13,667707,Zachary Riley,Fruits,any,1,18.09,18.09,Cash
+2024-01-04 18:28:21,705850,Diana Mclaughlin,Hot Beverages,control,5,7.91,39.55,Cash
+2023-12-21 20:52:45,334337,Jeffery Murray,Curries,decide,1,18.89,18.89,Cash
+2023-04-10 22:48:37,857493,Donald Little,Ice Cream,wide,5,16.62,83.10000000000001,Cash
+2023-06-11 07:42:45,164141,Patricia Anderson DDS,Fruits,arm,4,19.14,76.56,Cash
+2024-01-15 03:29:51,161363,Susan Stafford,Hot Beverages,know,5,19.79,98.94999999999999,Cash
+2023-11-17 10:39:21,36691,Emily Pham,Curries,Democrat,5,10.43,52.15,Debit Card
+2023-05-06 17:31:05,789602,Joshua Wood,Ice Cream,someone,5,7.63,38.15,Credit Card
+2023-04-20 19:12:04,470246,Emily Dickson,Ice Cream,become,5,12.35,61.75,Debit Card
+2023-08-01 20:36:29,465060,Todd Jones,Tea,ready,3,13.69,41.07,Debit Card
+2023-05-02 17:46:49,352350,Anthony House,Salads,car,3,8.35,25.049999999999997,Credit Card
+2023-10-31 16:27:15,870713,Justin Garcia,Biryani,answer,5,10.08,50.4,Credit Card
+2023-07-19 09:07:51,616942,Ricardo Nichols,Hot Soups,table,3,7.23,21.69,Cash
+2024-03-26 16:49:11,363949,Brian Boyd,Ice Cream,interesting,1,19.17,19.17,Cash
+2023-11-18 11:43:44,412348,Christina Browning,Hot Beverages,idea,2,16.64,33.28,Cash
+2023-08-16 09:17:55,999062,David Vargas,Hot Soups,theory,3,6.23,18.69,Cash
+2024-03-13 16:16:04,546843,Andrew Palmer DDS,Salads,thought,2,12.91,25.82,Credit Card
+2023-08-26 06:25:48,27692,Brittany Hernandez,Coffee,catch,5,12.85,64.25,Credit Card
+2024-02-07 14:06:41,382352,Susan Lynch,Biryani,spring,3,8.19,24.57,Credit Card
+2023-07-24 10:09:21,730227,Dawn Perry MD,Tea,identify,2,7.31,14.62,Credit Card
+2023-05-17 00:11:12,264,Richard Rhodes,Ice Cream,market,5,15.33,76.65,Debit Card
+2023-10-04 22:34:05,473251,Amanda Foster,Roti,ahead,4,8.56,34.24,Debit Card
+2023-07-03 14:04:15,523769,Michael Lee,Pakoras,free,1,16.24,16.24,Cash
+2024-02-28 06:56:56,471884,Christopher Stephenson,Hot Beverages,skill,4,7.55,30.2,Debit Card
+2023-11-23 07:51:50,933252,Brian Thomas,Hot Beverages,travel,3,18.82,56.46,Cash
+2023-07-28 11:18:50,653283,Leah Castillo,Coffee,customer,4,15.85,63.4,Credit Card
+2024-03-17 08:17:15,949022,Connie Boyer,Ice Cream,kid,2,16.14,32.28,Debit Card
+2023-11-10 16:11:08,675166,Melissa Gardner,Curries,fact,5,19.62,98.10000000000001,Cash
+2024-03-10 01:37:21,867541,Bethany Jackson,Fruits,visit,4,17.5,70.0,Cash
+2023-11-06 01:33:12,151421,Sarah Jarvis,Roti,lot,2,9.97,19.94,Debit Card
+2023-05-26 19:58:53,857559,Tim Marshall,Ice Cream,best,3,18.56,55.67999999999999,Cash
+2023-06-25 08:12:40,569815,Katherine Macias,Cool Drinks,prove,1,5.22,5.22,Debit Card
+2023-09-09 00:58:00,771817,Diane Zimmerman,Coffee,range,1,17.76,17.76,Cash
+2023-07-07 13:31:40,231666,Brandy Graves,Hot Soups,information,4,19.61,78.44,Debit Card
+2024-02-06 21:31:54,781457,Nicholas Stephens,Roti,democratic,4,5.88,23.52,Credit Card
+2023-12-10 21:02:42,170645,Austin Williams,Hot Beverages,budget,3,10.19,30.57,Debit Card
+2023-12-30 01:11:32,169931,Mark Mccann,Hot Beverages,sister,1,17.15,17.15,Credit Card
+2023-06-21 04:29:10,895437,Kenneth Harris,Cool Drinks,carry,3,15.74,47.22,Cash
+2024-01-17 17:10:26,612320,Sherry Castro,Biryani,truth,1,5.41,5.41,Cash
+2023-05-24 07:01:15,974063,Patrick Neal,Cool Drinks,yeah,2,10.68,21.36,Debit Card
+2023-11-15 12:11:28,138968,Jennifer Higgins,Roti,compare,3,18.22,54.66,Credit Card
+2024-03-29 23:05:39,602672,Robert Jennings,Fruits,business,5,8.95,44.75,Cash
+2023-05-30 10:51:08,858301,Charlene Frye,Salads,read,5,15.49,77.45,Credit Card
+2023-11-21 21:21:44,560789,Cynthia Myers,Curries,responsibility,1,14.07,14.07,Debit Card
+2023-10-05 11:05:52,194013,David Miller,Roti,civil,1,11.81,11.81,Credit Card
+2023-10-17 05:46:48,166760,Mark Hartman Jr.,Biryani,bit,2,15.68,31.36,Debit Card
+2023-06-30 17:05:39,770672,Raymond Walker,Fruits,by,1,9.88,9.88,Debit Card
+2023-08-02 10:24:57,457833,James Gardner,Tea,cup,1,16.42,16.42,Debit Card
+2024-01-27 06:12:00,201317,Joshua Jenkins,Hot Beverages,news,5,14.79,73.94999999999999,Credit Card
+2023-08-19 20:45:37,778409,Selena Jones,Pakoras,through,1,12.56,12.56,Debit Card
+2024-01-11 03:10:46,624190,Austin Diaz,Biryani,stage,2,19.02,38.04,Debit Card
+2023-04-23 15:27:08,703243,Judy Dennis,Cool Drinks,only,3,17.9,53.699999999999996,Credit Card
+2024-01-09 14:17:58,660396,Robert Mack,Roti,organization,4,12.49,49.96,Credit Card
+2023-08-08 02:33:14,181160,Richard Schmidt,Hot Soups,consider,1,19.94,19.94,Debit Card
+2023-09-20 12:32:45,862401,John Hahn,Tea,relationship,5,10.02,50.099999999999994,Cash
+2024-03-22 01:26:26,934099,Victoria Murphy,Fruits,history,3,5.18,15.54,Debit Card
+2024-03-02 01:58:41,882275,Krista Durham,Ice Cream,mention,3,14.63,43.89,Credit Card
+2023-05-06 06:01:31,342650,Elizabeth Williams,Fruits,indeed,4,13.76,55.04,Debit Card
+2023-10-02 15:39:57,455009,Michelle Montgomery,Hot Beverages,hotel,4,5.43,21.72,Cash
+2024-02-28 19:11:10,346285,Patricia Olson,Curries,under,2,7.23,14.46,Debit Card
+2023-05-27 14:57:16,490474,Anthony Calhoun,Cool Drinks,become,1,5.89,5.89,Debit Card
+2024-01-04 16:52:28,350718,Anne Sanchez,Hot Beverages,play,2,5.18,10.36,Cash
+2023-08-14 04:44:22,975708,Kevin Oconnor,Hot Soups,work,4,8.44,33.76,Debit Card
+2024-02-28 23:58:01,999281,Philip Burns,Hot Beverages,decision,4,14.36,57.44,Debit Card
+2024-03-19 18:18:30,906897,Matthew Love,Salads,PM,4,14.04,56.16,Debit Card
+2023-05-03 02:49:42,434454,James Dalton,Fruits,scene,5,12.38,61.900000000000006,Cash
+2023-04-19 18:34:07,833937,Deborah Lewis,Salads,how,4,12.14,48.56,Cash
+2023-04-15 16:15:01,98059,Nicole Simon,Salads,whose,4,19.29,77.16,Credit Card
+2023-07-04 13:13:21,884008,Michael Nolan,Coffee,too,5,12.8,64.0,Credit Card
+2023-09-06 20:14:22,113557,David Rasmussen,Coffee,strategy,1,19.06,19.06,Cash
+2023-12-23 17:19:10,489456,Suzanne Evans,Hot Beverages,finish,3,5.82,17.46,Debit Card
+2024-02-05 10:27:25,22193,Raymond Gonzalez,Hot Beverages,evidence,3,19.95,59.849999999999994,Credit Card
+2023-08-12 01:21:43,444971,Mary Briggs,Coffee,reason,1,6.88,6.88,Credit Card
+2023-07-14 12:35:02,690045,Shawn Graham,Pakoras,wife,3,16.86,50.58,Debit Card
+2023-06-08 12:36:02,587520,Ronald Williams,Ice Cream,tree,3,12.62,37.86,Credit Card
+2023-05-14 05:25:20,772143,Terry Harrell,Cool Drinks,I,1,5.52,5.52,Debit Card
+2024-02-29 15:49:48,354049,Jennifer Carey,Biryani,billion,3,18.57,55.71,Cash
+2023-06-10 19:40:39,603175,Monique Mcguire,Salads,treatment,2,19.17,38.34,Credit Card
+2024-02-20 05:00:49,523967,Krystal Little,Curries,option,1,10.73,10.73,Credit Card
+2024-02-15 07:40:59,996395,Alexis Miller,Biryani,word,5,7.6,38.0,Credit Card
+2023-06-11 22:26:50,395415,Misty Alvarez,Fruits,end,3,6.57,19.71,Debit Card
+2024-03-15 17:21:47,477462,Mrs. Kristina Rodriguez,Salads,body,2,16.49,32.98,Credit Card
+2023-11-16 12:46:34,430659,Jacob Sanders,Roti,subject,4,11.03,44.12,Cash
+2023-05-30 04:06:12,14007,Angel Holmes,Fruits,reason,3,16.28,48.84,Credit Card
+2023-04-21 16:14:08,171617,Douglas Golden,Fruits,exactly,5,10.49,52.45,Debit Card
+2024-03-04 02:05:20,806741,Cindy Miller,Cool Drinks,early,4,8.47,33.88,Cash
+2023-10-06 03:13:55,616785,Whitney Davis,Curries,program,5,8.55,42.75,Credit Card
+2024-02-08 15:48:24,395993,Cynthia Williams,Roti,the,5,17.85,89.25,Debit Card
+2023-05-25 19:43:30,728531,Patrick Castro,Cool Drinks,practice,4,12.02,48.08,Credit Card
+2023-10-08 17:12:52,972,James Collier,Roti,ask,2,15.41,30.82,Debit Card
+2023-08-01 03:59:10,13633,Alyssa Williams,Hot Soups,deal,2,16.02,32.04,Credit Card
+2023-04-11 18:29:02,920417,Denise King,Salads,participant,1,10.84,10.84,Debit Card
+2023-07-26 07:28:01,568643,Mark Brown,Tea,he,5,6.43,32.15,Cash
+2023-04-14 13:06:33,319048,Frank Vargas,Ice Cream,upon,2,16.1,32.2,Debit Card
+2024-03-15 21:26:00,6280,Pamela James,Salads,large,5,19.83,99.14999999999999,Credit Card
+2024-03-28 17:29:37,402571,Laura Price,Fruits,light,4,6.35,25.4,Cash
+2024-03-18 11:13:37,691462,Lisa Ayala,Fruits,road,3,16.65,49.949999999999996,Debit Card
+2023-06-15 11:14:26,951187,Jennifer Vaughn,Salads,reflect,2,5.75,11.5,Debit Card
+2023-12-01 21:51:27,6966,Robert Morgan,Curries,position,2,15.42,30.84,Cash
+2023-07-26 07:09:08,488355,Cameron Hood,Tea,mean,4,17.89,71.56,Credit Card
+2023-09-16 17:09:34,349515,George Davis,Hot Soups,such,5,17.16,85.8,Credit Card
+2023-05-07 04:56:54,80245,Mark Moore,Salads,above,3,19.35,58.050000000000004,Credit Card
+2023-05-07 03:36:26,798040,Stephanie Franklin,Fruits,history,5,10.19,50.949999999999996,Cash
+2024-03-15 11:52:13,434060,Martin Berry,Cool Drinks,challenge,1,9.0,9.0,Debit Card
+2024-04-04 19:23:25,861881,Patrick Murphy,Fruits,yard,2,13.51,27.02,Cash
+2023-04-14 19:11:19,978405,Scott Medina,Cool Drinks,hit,3,13.66,40.980000000000004,Credit Card
+2023-07-24 05:51:13,459592,Cameron Morgan,Pakoras,teach,1,11.52,11.52,Credit Card
+2023-09-21 16:31:11,925109,Gregory Tucker,Pakoras,college,5,15.71,78.55000000000001,Debit Card
+2023-04-27 20:57:39,999394,Michael Turner,Ice Cream,paper,2,16.67,33.34,Cash
+2023-12-07 06:46:58,128910,Patricia Clark,Biryani,himself,2,19.21,38.42,Cash
+2023-12-30 03:09:42,280621,Tamara James,Hot Beverages,win,2,11.2,22.4,Debit Card
+2024-03-10 11:57:33,477812,David Braun,Salads,yet,4,8.53,34.12,Cash
+2023-12-26 15:23:12,815674,Becky Williams,Biryani,show,1,8.19,8.19,Debit Card
+2023-12-02 18:12:50,806750,Melissa Rodriguez,Hot Beverages,song,4,9.34,37.36,Debit Card
+2023-06-17 15:14:04,909686,Robert James,Fruits,cold,1,13.97,13.97,Credit Card
+2023-08-18 08:01:59,539776,Sally Griffin,Tea,than,3,16.92,50.760000000000005,Debit Card
+2024-03-29 13:36:29,50727,Justin Walton,Cool Drinks,chair,2,16.91,33.82,Debit Card
+2023-04-15 16:35:59,716313,Aaron Coleman,Cool Drinks,maintain,5,13.82,69.1,Credit Card
+2023-04-17 05:55:16,150881,Tammy Best,Salads,threat,3,5.81,17.43,Debit Card
+2024-03-28 15:22:56,29691,Michael Townsend,Fruits,between,5,6.56,32.8,Cash
+2024-03-07 19:57:32,383240,Thomas Sanchez,Ice Cream,its,5,16.37,81.85000000000001,Debit Card
+2023-08-25 23:41:27,787999,Paul Sanford,Coffee,next,5,6.92,34.6,Cash
+2024-01-16 13:47:14,783799,William Myers,Hot Beverages,for,2,9.6,19.2,Credit Card
+2023-08-28 21:14:27,585680,Valerie Walsh,Coffee,yard,3,11.65,34.95,Credit Card
+2024-02-23 00:19:33,862942,Keith Sweeney,Hot Beverages,after,2,18.84,37.68,Credit Card
+2023-12-15 01:00:17,916845,Benjamin Johns,Hot Beverages,check,2,12.22,24.44,Cash
+2023-09-11 13:09:15,107,Lauren Gomez,Tea,establish,4,11.44,45.76,Debit Card
+2023-09-22 22:41:21,833387,Lisa Graham,Hot Soups,theory,4,17.37,69.48,Cash
+2024-01-24 23:45:25,351294,Barbara Stephens,Hot Beverages,speak,2,5.16,10.32,Credit Card
+2024-02-11 02:25:28,223171,Andrew Phelps,Roti,still,2,5.46,10.92,Cash
+2024-03-11 09:43:07,612911,Amy Hale,Cool Drinks,suffer,4,13.43,53.72,Credit Card
+2024-03-15 06:40:15,927044,Kimberly Palmer,Cool Drinks,agency,4,7.87,31.48,Cash
+2024-01-20 09:17:32,112468,David Nelson,Roti,relate,4,17.38,69.52,Debit Card
+2024-03-09 00:39:34,797081,Madison Mann,Cool Drinks,laugh,1,12.09,12.09,Cash
+2024-03-22 07:53:10,672447,Madison Gonzalez,Ice Cream,toward,4,10.76,43.04,Debit Card
+2023-08-28 16:06:11,630187,Mark Salazar,Tea,prevent,5,13.76,68.8,Cash
+2023-07-15 07:57:57,712248,Dana Solomon,Coffee,nation,5,11.61,58.05,Debit Card
+2024-01-05 18:26:49,831313,Jamie Edwards,Biryani,may,3,19.52,58.56,Debit Card
+2023-10-15 05:04:43,38326,Dr. Mike Martinez,Biryani,use,2,9.51,19.02,Debit Card
+2024-03-16 04:33:24,332191,Alexandra Carlson,Fruits,those,3,17.96,53.88,Credit Card
+2024-03-04 12:10:24,250839,Angela Cohen,Fruits,condition,1,12.52,12.52,Credit Card
+2023-05-05 00:07:58,145017,Cameron Henry,Salads,political,3,11.3,33.900000000000006,Debit Card
+2024-01-07 04:00:09,443894,Miguel Lin,Hot Beverages,glass,2,14.34,28.68,Credit Card
+2024-02-07 12:53:48,344745,Mary George,Biryani,wonder,1,10.13,10.13,Credit Card
+2023-08-14 09:00:01,608871,Angela Mays,Coffee,particularly,4,15.83,63.32,Debit Card
+2024-01-19 16:58:17,718057,Timothy Hernandez MD,Curries,push,3,10.81,32.43,Credit Card
+2024-03-31 07:13:06,762467,Taylor Robinson,Fruits,can,5,16.06,80.3,Credit Card
+2023-07-08 21:13:58,630372,Micheal Frazier,Hot Soups,know,2,15.13,30.26,Credit Card
+2023-04-23 19:00:01,792811,Justin Thompson,Fruits,southern,4,9.42,37.68,Credit Card
+2024-01-08 09:26:17,394905,Bob Wagner,Hot Beverages,not,2,9.48,18.96,Credit Card
+2023-12-05 15:30:40,602168,Amanda Evans,Curries,music,2,10.12,20.24,Credit Card
+2023-04-29 16:27:37,563667,Joe Clark,Cool Drinks,drop,3,6.15,18.450000000000003,Credit Card
+2023-12-09 01:09:32,882824,Adam Scott,Curries,idea,4,17.95,71.8,Credit Card
+2023-04-18 14:19:26,265526,Dr. Martha Lee,Salads,picture,1,16.83,16.83,Debit Card
+2024-01-01 01:22:26,815093,David Jackson,Curries,threat,2,12.29,24.58,Debit Card
+2024-03-27 16:45:15,152706,Mark Jensen,Cool Drinks,financial,1,15.55,15.55,Credit Card
+2023-11-13 19:56:34,235946,Jesus Miller,Curries,hold,1,11.72,11.72,Cash
+2023-08-14 08:54:38,714030,Theodore Cox,Hot Soups,two,5,18.52,92.6,Cash
+2023-08-04 22:12:47,566460,Jacqueline Smith,Tea,sit,2,15.79,31.58,Credit Card
+2024-02-24 07:43:03,81851,Courtney Anderson,Curries,reason,5,6.83,34.15,Credit Card
+2023-09-10 14:09:06,753714,Nathan Perez,Hot Soups,pressure,1,5.64,5.64,Debit Card
+2024-03-08 07:43:15,137973,Kevin Cooper,Salads,large,4,8.03,32.12,Debit Card
+2023-11-06 13:29:06,240678,Christopher Henderson,Hot Beverages,chair,5,5.94,29.700000000000003,Debit Card
+2024-03-15 08:21:19,137143,Suzanne Singh,Fruits,teach,5,9.47,47.35,Credit Card
+2023-08-14 16:35:20,95035,Martha Mitchell,Coffee,west,5,16.46,82.30000000000001,Debit Card
+2023-08-18 11:29:00,424768,Sarah Manning,Pakoras,let,4,10.06,40.24,Cash
+2023-06-15 12:29:43,592397,Randy Lopez,Salads,woman,2,7.2,14.4,Cash
+2024-03-31 12:26:21,910549,Diana Martinez,Fruits,head,5,7.75,38.75,Cash
+2024-04-02 12:29:37,851099,Jordan Thompson,Salads,style,5,6.38,31.9,Cash
+2023-09-27 21:36:50,752474,Jason Jennings,Hot Soups,character,2,19.68,39.36,Debit Card
+2024-03-11 20:08:18,833534,Frederick Fernandez,Cool Drinks,new,1,6.19,6.19,Credit Card
+2023-06-19 07:02:00,411290,Kristin Barnes,Ice Cream,specific,2,19.18,38.36,Credit Card
+2023-09-23 14:54:02,968938,Amber Nelson,Pakoras,leave,2,12.0,24.0,Cash
+2023-05-14 18:49:49,734750,Cynthia Coleman,Fruits,instead,1,5.23,5.23,Cash
+2024-04-08 03:17:13,923735,Christopher Jones,Cool Drinks,thank,2,10.93,21.86,Credit Card
+2023-12-31 07:11:52,188064,Patricia Phillips DDS,Biryani,main,3,15.94,47.82,Cash
+2023-12-02 08:20:26,438470,Michael Mcmahon,Curries,quickly,5,14.03,70.14999999999999,Cash
+2023-07-08 03:06:09,252726,Hannah Stewart,Tea,morning,4,7.7,30.8,Cash
+2023-04-30 06:50:17,755605,Karen Adams,Ice Cream,protect,5,12.37,61.849999999999994,Debit Card
+2023-07-01 22:25:46,647133,Deborah Graves,Tea,federal,5,14.16,70.8,Cash
+2024-02-16 04:47:19,584487,Justin Sullivan,Curries,pull,2,15.31,30.62,Credit Card
+2023-10-17 13:59:28,359114,Michele Beck,Hot Beverages,college,4,7.61,30.44,Cash
+2023-05-11 15:21:21,166845,Christopher Carr,Ice Cream,reality,2,9.76,19.52,Credit Card
+2023-07-25 09:07:49,574036,Rebecca Lee,Tea,employee,1,5.14,5.14,Credit Card
+2023-07-15 23:34:03,812359,Stephen Garner,Pakoras,must,5,6.75,33.75,Credit Card
+2023-04-17 20:27:05,839980,April Reyes MD,Fruits,assume,1,10.03,10.03,Debit Card
+2023-05-14 14:05:18,160253,Paul Kelly,Cool Drinks,piece,2,7.82,15.64,Credit Card
+2023-09-03 00:52:45,708481,Brian Townsend,Coffee,sell,3,13.9,41.7,Debit Card
+2023-12-13 07:42:49,575300,Edgar Williams,Hot Beverages,church,3,7.28,21.84,Credit Card
+2023-08-16 02:39:43,750166,Sandra Meyer,Tea,history,5,19.02,95.1,Credit Card
+2023-06-28 14:29:58,248821,Amber Jackson,Ice Cream,third,1,5.96,5.96,Cash
+2023-09-26 05:46:40,460564,Victoria Boyd,Tea,black,4,11.73,46.92,Cash
+2023-11-24 09:08:53,363185,Valerie Ortiz,Hot Beverages,produce,1,7.79,7.79,Credit Card
+2024-02-10 16:13:19,357133,Barbara Stephens,Roti,because,5,10.44,52.199999999999996,Cash
+2024-03-15 01:15:38,493910,Jessica Espinoza,Cool Drinks,nature,2,15.05,30.1,Credit Card
+2023-12-26 09:43:48,475216,Matthew Green,Roti,spring,3,16.92,50.760000000000005,Credit Card
+2023-10-08 11:51:05,567803,Colleen Rollins,Curries,event,4,8.59,34.36,Cash
+2024-01-31 09:40:20,473522,Jennifer Burns,Biryani,yourself,5,9.81,49.050000000000004,Cash
+2023-10-08 12:57:28,140954,Sandra Wilson,Curries,cell,5,9.38,46.900000000000006,Cash
+2024-02-17 22:19:51,371931,Diana Jackson,Biryani,character,5,12.89,64.45,Debit Card
+2023-07-25 06:07:56,169499,Brooke Fox,Pakoras,democratic,2,11.84,23.68,Credit Card
+2023-08-09 15:40:34,662349,Kathleen Weeks,Pakoras,tonight,1,6.95,6.95,Credit Card
+2024-03-07 06:13:21,42196,Kimberly Rogers,Ice Cream,international,1,9.12,9.12,Credit Card
+2023-07-08 00:25:28,767075,Robert Jones,Tea,campaign,1,10.15,10.15,Cash
+2023-10-26 00:55:17,429154,Gabriel Gonzalez,Curries,use,5,10.4,52.0,Cash
+2023-10-10 08:18:49,192349,Jamie Moran,Hot Beverages,protect,2,5.49,10.98,Cash
+2024-01-08 01:08:42,560182,Joseph Forbes,Curries,large,3,13.64,40.92,Credit Card
+2023-09-08 20:09:45,679591,Autumn Harrell,Coffee,long,2,15.09,30.18,Credit Card
+2023-07-28 02:42:45,292167,Anita Carlson,Pakoras,skin,1,13.74,13.74,Credit Card
+2023-05-04 10:27:14,209384,Elizabeth Martinez,Salads,kid,3,7.42,22.259999999999998,Credit Card
+2023-07-03 02:12:09,127969,Amanda Brock,Coffee,town,1,11.61,11.61,Debit Card
+2023-10-08 21:39:58,277760,Oscar Duncan,Biryani,talk,5,19.93,99.65,Cash
+2024-04-06 15:53:30,630170,Kristen Martinez,Ice Cream,race,3,6.39,19.169999999999998,Debit Card
+2024-03-10 20:19:33,446720,April Fuentes,Ice Cream,effort,1,19.44,19.44,Credit Card
+2023-05-03 21:20:57,665275,John Martinez,Cool Drinks,produce,4,8.89,35.56,Cash
+2024-03-26 06:28:22,207054,Russell Hall,Fruits,couple,2,17.04,34.08,Debit Card
+2023-09-18 22:28:51,71793,Cheryl Anthony,Hot Soups,nation,1,19.72,19.72,Credit Card
+2023-06-04 03:13:50,582460,Steven Johnson,Fruits,really,3,14.86,44.58,Credit Card
+2023-07-04 12:53:04,11063,Mark Hunter,Hot Soups,difference,4,16.11,64.44,Debit Card
+2024-03-26 18:19:22,368377,Alexander West,Ice Cream,with,5,17.81,89.05,Cash
+2023-08-17 18:59:06,163285,Lee Love,Pakoras,rather,5,8.96,44.800000000000004,Cash
+2023-06-09 19:45:23,139611,Amy Prince,Ice Cream,protect,2,11.77,23.54,Cash
+2023-06-12 00:17:48,557832,Michelle Wilkins,Cool Drinks,improve,5,14.18,70.9,Cash
+2024-02-21 22:09:05,468662,Lisa Horton,Hot Beverages,I,1,17.42,17.42,Debit Card
+2024-01-19 12:19:57,591871,Sheila Cook,Biryani,who,5,17.62,88.10000000000001,Credit Card
+2023-11-18 16:29:49,199278,Brian Gardner,Curries,form,3,17.36,52.08,Debit Card
+2024-03-24 19:45:40,587473,Caitlin Haynes,Cool Drinks,against,1,7.38,7.38,Debit Card
+2024-03-13 17:53:01,197277,Andrew Smith,Cool Drinks,career,1,15.99,15.99,Cash
+2023-10-21 12:21:32,732828,Matthew Anderson,Hot Beverages,simply,4,8.34,33.36,Cash
+2023-12-12 20:38:58,309850,Miranda Brown,Hot Beverages,even,4,8.2,32.8,Debit Card
+2023-10-21 02:53:57,576503,Mark Vega,Curries,computer,1,6.87,6.87,Cash
+2023-06-01 22:28:44,372169,Jeffery Reyes,Salads,tonight,3,11.16,33.480000000000004,Debit Card
+2024-01-27 13:32:36,532728,Nicolas Thompson,Hot Beverages,draw,1,19.33,19.33,Debit Card
+2023-12-10 13:59:24,863933,Kenneth Rogers,Hot Beverages,maintain,5,18.51,92.55000000000001,Cash
+2023-10-18 20:52:51,155900,James Brady,Biryani,wrong,5,13.69,68.45,Debit Card
+2023-11-13 20:56:38,39274,Justin Owens,Biryani,than,5,17.37,86.85000000000001,Debit Card
+2023-08-16 03:19:36,538101,Ashley Gray,Hot Soups,staff,5,16.09,80.45,Cash
+2023-08-03 09:49:15,291570,Lauren Fisher,Coffee,floor,3,6.65,19.950000000000003,Credit Card
+2023-09-08 12:01:12,712225,Justin Watts,Pakoras,reflect,5,10.32,51.6,Debit Card
+2023-10-04 16:58:42,923323,Ryan Cohen,Roti,range,4,18.87,75.48,Cash
+2024-03-29 03:51:32,958101,Lisa Davis,Fruits,may,3,16.74,50.22,Cash
+2024-03-09 15:04:31,82751,Taylor Arnold,Cool Drinks,common,4,7.63,30.52,Debit Card
+2024-01-03 10:44:20,549594,Dennis Davidson,Roti,area,5,16.56,82.8,Cash
+2023-04-18 08:03:55,489399,Casey Horton,Ice Cream,decision,3,15.43,46.29,Cash
+2023-06-15 18:59:17,308352,Jesse Reynolds,Fruits,sell,1,17.48,17.48,Cash
+2023-05-24 21:28:20,90269,Ann Shaffer,Fruits,executive,1,19.52,19.52,Credit Card
+2023-08-23 09:06:40,336037,Regina Phillips,Coffee,gas,3,17.8,53.400000000000006,Cash
+2023-05-23 04:03:51,751452,Christopher Smith,Fruits,offer,1,18.27,18.27,Cash
+2023-12-09 21:45:39,115915,Kelly Shelton,Biryani,here,5,16.74,83.69999999999999,Credit Card
+2023-08-31 14:41:17,515184,Tina Taylor,Tea,doctor,1,12.12,12.12,Credit Card
+2023-04-09 21:21:18,464872,Michael Long,Cool Drinks,he,1,14.57,14.57,Credit Card
+2023-07-03 21:27:11,134961,Jesus Collins,Coffee,question,5,19.18,95.9,Cash
+2024-01-13 09:52:36,554003,Diamond Potts,Hot Beverages,gas,4,14.55,58.2,Credit Card
+2024-03-09 22:21:46,320269,Travis Lewis,Cool Drinks,suffer,2,13.86,27.72,Cash
+2023-11-07 01:33:47,165384,Heather Smith,Curries,evidence,5,11.59,57.95,Credit Card
+2023-09-17 21:47:49,771511,Donald Chen,Pakoras,central,5,17.23,86.15,Debit Card
+2024-01-04 22:00:46,227596,Alan Clark,Biryani,nearly,3,13.82,41.46,Credit Card
+2023-07-09 07:54:25,938933,Kristopher Gray,Hot Soups,despite,1,18.65,18.65,Debit Card
+2024-03-27 18:49:19,495230,Kaitlin Crawford MD,Cool Drinks,environment,5,18.05,90.25,Credit Card
+2024-02-01 04:20:39,380641,Steve Larson,Curries,cell,3,6.09,18.27,Credit Card
+2023-07-31 20:16:51,135057,April Romero,Coffee,write,2,10.96,21.92,Debit Card
+2023-07-03 23:08:15,664033,Jessica Stevens,Pakoras,hold,4,14.26,57.04,Cash
+2024-02-04 13:29:05,968698,Courtney Schwartz,Hot Beverages,amount,1,9.25,9.25,Debit Card
+2024-02-10 13:04:42,246692,Alexis Valentine,Biryani,sort,1,14.56,14.56,Debit Card
+2023-04-26 10:22:59,515351,Maria Murphy,Cool Drinks,though,5,6.47,32.35,Credit Card
+2024-03-24 18:15:44,559490,Katherine Reese,Salads,practice,4,12.98,51.92,Debit Card
+2024-01-26 16:00:11,429678,Cole Knox,Biryani,marriage,3,6.86,20.580000000000002,Debit Card
+2023-12-04 03:16:40,923173,Dorothy Rose,Roti,dinner,5,15.39,76.95,Debit Card
+2023-07-13 17:08:58,401873,Kevin Taylor,Coffee,leg,4,13.71,54.84,Debit Card
+2024-01-27 07:06:46,484287,Troy Curry,Hot Beverages,already,1,14.15,14.15,Credit Card
+2024-03-07 13:50:10,104133,Sarah Taylor,Fruits,any,4,15.84,63.36,Credit Card
+2023-12-10 08:20:11,247475,Dale Hunt,Hot Beverages,eye,3,18.34,55.019999999999996,Credit Card
+2023-10-02 11:56:05,125751,Christopher Kaiser,Biryani,scientist,2,11.41,22.82,Debit Card
+2023-11-30 17:49:15,262568,Kelly Gomez,Biryani,real,4,6.36,25.44,Credit Card
+2023-12-23 01:18:21,7845,Erica Lang,Roti,truth,3,8.85,26.549999999999997,Credit Card
+2023-09-03 17:23:34,827793,Brian Jennings,Coffee,couple,3,15.63,46.89,Debit Card
+2023-10-11 20:04:59,831848,Laura Evans,Curries,sell,2,13.84,27.68,Credit Card
+2023-07-11 13:34:07,57626,Jordan Foster,Tea,up,2,19.5,39.0,Cash
+2023-05-15 21:10:57,818239,Jacob Mcgee,Ice Cream,near,4,11.95,47.8,Debit Card
+2023-12-10 02:06:52,584449,Brittany Wagner,Hot Beverages,prove,4,12.6,50.4,Cash
+2023-07-29 12:08:57,870603,Thomas Hardin,Tea,fear,2,5.5,11.0,Credit Card
+2024-03-06 19:29:50,678612,Richard Jackson,Cool Drinks,apply,5,8.88,44.400000000000006,Credit Card
+2023-08-22 16:42:44,294946,Katelyn Mcclain,Hot Soups,price,2,19.94,39.88,Credit Card
+2024-02-21 18:57:16,927858,Adam Lloyd,Roti,floor,1,11.58,11.58,Cash
+2023-08-01 15:06:49,832829,Juan Vazquez,Pakoras,yard,1,9.45,9.45,Credit Card
+2023-09-20 07:47:17,742451,Leslie Hayden,Pakoras,television,2,17.39,34.78,Debit Card
+2023-12-15 22:15:09,556400,Dustin Flores,Hot Beverages,some,4,9.4,37.6,Debit Card
+2023-08-24 05:30:56,689465,Caleb Turner,Coffee,side,5,12.22,61.1,Cash
+2023-08-19 07:32:19,839606,Alicia Rodriguez,Coffee,ago,1,6.84,6.84,Credit Card
+2023-07-07 05:08:54,855529,Laura Sanchez,Pakoras,blue,3,14.02,42.06,Cash
+2023-08-19 19:06:37,546941,Brooke Smith,Hot Soups,size,2,19.37,38.74,Debit Card
+2024-03-04 09:36:32,419995,David Andrews,Fruits,practice,1,19.05,19.05,Debit Card
+2023-10-03 10:03:18,381642,Jamie Mueller,Curries,authority,1,7.77,7.77,Cash
+2023-12-06 03:25:07,96215,Anthony Wright,Curries,source,1,11.69,11.69,Cash
+2023-11-18 09:20:14,823597,Bryan Richardson,Curries,order,1,18.32,18.32,Debit Card
+2023-09-27 18:24:24,520947,Daniel Martin,Hot Soups,drug,4,9.3,37.2,Cash
+2023-09-20 04:06:59,818357,Jane Morgan,Pakoras,during,2,14.51,29.02,Credit Card
+2023-10-29 06:39:11,37203,Matthew Fleming,Curries,though,5,18.99,94.94999999999999,Cash
+2023-05-29 20:33:05,874005,Vincent Lee,Salads,car,3,9.82,29.46,Debit Card
+2023-04-19 03:25:22,848977,Amy Young,Salads,occur,4,16.34,65.36,Cash
+2023-12-08 03:05:52,207490,Elizabeth Harris,Curries,fish,1,7.65,7.65,Cash
+2024-02-07 11:53:38,620941,Anne Newman,Curries,ten,2,14.57,29.14,Credit Card
+2023-05-08 04:17:39,154332,Justin Shannon,Ice Cream,heart,1,5.25,5.25,Debit Card
+2024-02-05 10:12:23,549661,Patricia Morales,Biryani,kind,4,19.25,77.0,Credit Card
+2023-10-15 17:53:37,833612,Alex Ford,Hot Beverages,series,2,10.07,20.14,Cash
+2024-01-03 05:13:22,654393,Andrew Gray,Biryani,too,2,9.14,18.28,Credit Card
+2023-10-23 19:07:04,188685,Daniel Henderson,Roti,mind,1,19.29,19.29,Debit Card
+2024-03-20 22:09:21,301993,Maria Williamson,Salads,citizen,4,11.97,47.88,Debit Card
+2023-10-08 20:55:46,455424,Andrew Molina,Hot Beverages,grow,2,19.61,39.22,Debit Card
+2024-03-11 06:10:33,315390,Jamie Harris,Cool Drinks,offer,3,7.4,22.200000000000003,Debit Card
+2023-09-01 03:57:15,16493,Brenda Neal,Tea,spend,3,14.49,43.47,Debit Card
+2024-03-18 12:01:33,519434,Vanessa Hill,Fruits,Mrs,1,16.48,16.48,Cash
+2023-10-31 12:55:55,60181,Evan Klein,Hot Beverages,fact,3,6.43,19.29,Debit Card
+2023-06-23 15:53:54,803353,Christine Coleman,Salads,form,4,6.84,27.36,Debit Card
+2023-11-05 18:30:12,911637,Mark Wells,Curries,opportunity,4,14.88,59.52,Cash
+2024-03-16 05:28:59,404701,Richard Mccarty,Salads,chance,1,7.16,7.16,Credit Card
+2023-08-28 08:30:12,535660,Joseph Austin,Hot Soups,current,2,17.38,34.76,Cash
+2023-11-16 20:00:31,870946,Sergio Moreno,Biryani,have,1,9.99,9.99,Debit Card
+2024-03-01 18:58:11,932993,Theresa Fisher,Fruits,operation,2,17.61,35.22,Debit Card
+2023-09-16 02:25:20,729705,Kristin Woods,Coffee,between,4,11.91,47.64,Debit Card
+2023-09-15 07:00:51,331733,Roger Chavez,Coffee,figure,3,11.03,33.089999999999996,Cash
+2023-10-25 11:09:42,774904,Breanna Fernandez,Hot Beverages,staff,1,17.11,17.11,Credit Card
+2023-07-24 12:05:49,777276,Travis Lynch,Hot Soups,activity,4,5.61,22.44,Debit Card
+2023-12-16 11:58:33,376907,Ian Curry,Roti,teacher,2,5.76,11.52,Cash
+2023-09-26 11:56:40,81751,Adam Diaz,Pakoras,future,1,12.85,12.85,Credit Card
+2024-03-11 23:17:45,888391,Vanessa Washington,Fruits,time,2,8.31,16.62,Cash
+2023-12-02 04:12:34,261634,Don Moon,Hot Beverages,test,3,10.38,31.14,Debit Card
+2023-08-22 00:01:30,391388,Kathryn Campbell,Coffee,Mrs,3,18.61,55.83,Debit Card
+2023-07-18 12:23:17,804960,Timothy Ross,Pakoras,accept,5,19.49,97.44999999999999,Credit Card
+2023-11-28 22:15:23,550085,Matthew Hoover,Hot Beverages,price,5,14.33,71.65,Credit Card
+2023-06-11 10:00:04,813963,Gabrielle Smith,Salads,local,3,8.93,26.79,Cash
+2023-08-24 21:22:19,238439,Jeffrey Garcia,Coffee,citizen,3,18.43,55.29,Credit Card
+2024-02-28 11:13:20,697058,John Williams,Biryani,check,2,17.17,34.34,Credit Card
+2024-03-07 11:40:28,84819,Sarah Nguyen,Ice Cream,read,1,18.34,18.34,Cash
+2023-06-08 20:11:22,172823,Michael Lopez,Cool Drinks,nor,4,13.2,52.8,Cash
+2024-01-16 09:23:45,866116,Anthony Davis,Roti,place,3,6.63,19.89,Debit Card
+2024-02-01 05:29:44,840878,Joseph Adams,Curries,while,1,16.38,16.38,Credit Card
+2023-09-15 12:35:05,706695,Jennifer Mccarty,Pakoras,natural,3,19.14,57.42,Cash
+2023-06-24 17:26:59,483536,Christian Harris,Cool Drinks,story,3,17.43,52.29,Debit Card
+2023-11-25 06:38:47,932225,Leslie Thompson,Hot Beverages,box,3,10.25,30.75,Debit Card
+2023-11-24 01:43:32,626497,William Perry,Biryani,current,1,6.44,6.44,Cash
+2023-09-09 09:33:30,728075,Cassandra Patterson,Tea,structure,4,18.13,72.52,Debit Card
+2023-04-11 08:59:17,920416,Daniel Orozco,Ice Cream,issue,1,19.66,19.66,Credit Card
+2024-01-02 19:48:53,6126,Michael Fletcher,Hot Beverages,pressure,1,19.98,19.98,Cash
+2024-02-13 04:56:44,768286,James Ellison,Curries,industry,4,9.62,38.48,Debit Card
+2023-07-26 11:30:42,413337,Michael Fry II,Pakoras,star,3,16.2,48.599999999999994,Cash
+2023-05-24 11:00:50,836889,Brittany Barron,Salads,PM,5,9.42,47.1,Credit Card
+2023-10-19 19:48:12,72733,Ruth Townsend,Roti,late,1,16.56,16.56,Debit Card
+2023-07-05 05:29:48,729973,Jason Fields,Pakoras,treatment,1,18.49,18.49,Debit Card
+2023-08-01 11:43:20,601735,Ashley Smith,Coffee,listen,5,7.38,36.9,Cash
+2023-06-28 00:05:30,636102,Mr. Mark Johnson,Cool Drinks,participant,3,6.36,19.080000000000002,Cash
+2024-03-11 09:43:02,396712,Ronald Anderson,Ice Cream,three,3,8.33,24.990000000000002,Credit Card
+2023-07-28 21:12:57,342638,Amy Spencer,Hot Soups,individual,1,10.17,10.17,Credit Card
+2024-01-28 23:54:11,621098,Frank Summers,Biryani,perform,2,11.44,22.88,Credit Card
+2023-08-13 09:27:21,874974,Daniel Thomas,Coffee,leg,5,11.66,58.3,Cash
+2023-12-30 03:04:29,984864,Jeffrey Grimes,Biryani,lose,5,7.88,39.4,Credit Card
+2023-06-27 11:10:38,213513,Michelle Miller,Fruits,day,2,16.28,32.56,Debit Card
+2023-05-30 00:23:25,382805,Joseph Wright,Ice Cream,down,3,12.65,37.95,Debit Card
+2024-02-15 23:34:15,341424,Elizabeth Schaefer,Roti,media,3,18.54,55.62,Credit Card
+2024-03-03 01:20:57,117826,Kelsey Woodward,Cool Drinks,business,2,11.02,22.04,Debit Card
+2023-08-09 12:18:32,204004,Michael Medina,Tea,operation,2,10.97,21.94,Credit Card
+2023-08-29 08:46:38,615548,Malik White,Coffee,detail,2,12.94,25.88,Debit Card
+2023-05-10 23:53:32,80031,Erin Gomez,Cool Drinks,appear,1,8.26,8.26,Cash
+2023-10-29 04:57:13,294850,Lee Ferguson,Hot Beverages,find,5,10.94,54.699999999999996,Debit Card
+2023-05-20 17:16:56,70187,Eric Martin,Fruits,game,1,11.91,11.91,Credit Card
+2023-05-20 23:26:40,884581,Tami Ramirez,Salads,on,4,9.36,37.44,Cash
+2024-01-19 19:13:12,778269,Deborah Miller,Curries,light,1,11.37,11.37,Cash
+2024-02-21 17:24:51,280851,Jacob Sims,Roti,much,3,8.32,24.96,Debit Card
+2023-10-05 18:41:35,484281,Erik Bailey,Biryani,without,2,5.5,11.0,Credit Card
+2023-07-04 19:28:47,550732,Garrett Dodson,Hot Soups,save,1,15.87,15.87,Cash
+2023-12-21 02:16:29,454548,David Chambers,Curries,try,3,11.29,33.87,Credit Card
+2024-01-20 03:56:10,463207,Gregory Jones,Biryani,institution,2,17.51,35.02,Cash
+2023-11-02 20:09:26,11923,Cheryl Porter,Biryani,sometimes,3,18.32,54.96,Cash
+2023-04-12 08:05:01,61280,Philip Acosta,Ice Cream,stop,5,16.85,84.25,Credit Card
+2023-06-26 03:57:34,787796,Kim Montgomery,Salads,eye,5,16.64,83.2,Credit Card
+2024-02-10 12:54:18,946402,Stacey Stevens,Roti,season,1,14.0,14.0,Debit Card
+2023-12-23 05:53:09,689337,Micheal Gaines,Biryani,evening,4,15.82,63.28,Debit Card
+2023-12-27 00:28:14,378584,Kelly Vance,Roti,once,2,10.66,21.32,Cash
+2023-10-31 03:25:15,88155,Andrew Barnett,Biryani,support,5,6.78,33.9,Credit Card
+2024-02-05 14:15:00,583637,Alejandra West,Hot Beverages,Mr,3,5.94,17.82,Cash
+2023-06-05 11:37:33,888626,Scott Thomas,Cool Drinks,manage,2,9.97,19.94,Credit Card
+2023-07-25 22:08:09,937428,Robert Burgess,Pakoras,popular,4,12.21,48.84,Debit Card
+2023-11-28 02:45:22,442735,Sara Daniels,Roti,positive,1,18.44,18.44,Cash
+2023-06-18 04:10:34,121137,Wayne Harrison,Salads,political,3,12.77,38.31,Cash
+2023-05-14 16:39:20,714845,Christy Adams,Fruits,performance,3,11.3,33.900000000000006,Debit Card
+2024-01-15 06:22:57,392170,Ann Benjamin,Curries,imagine,5,8.85,44.25,Debit Card
+2023-07-05 06:22:39,116528,Frank Wright,Tea,with,4,8.22,32.88,Cash
+2023-12-03 09:51:11,404730,Nicholas Pratt,Hot Beverages,government,2,7.01,14.02,Debit Card
+2023-09-21 07:01:10,350411,Mary Woods,Pakoras,save,2,15.15,30.3,Debit Card
+2023-04-13 09:04:35,801256,Sarah Wright,Salads,trip,3,8.39,25.17,Cash
+2023-07-10 00:25:41,500610,Theodore Cruz,Coffee,student,3,19.03,57.09,Cash
+2023-06-22 04:58:28,60144,Wesley Vasquez,Salads,film,5,15.92,79.6,Credit Card
+2024-02-05 21:17:09,279732,Larry Jones,Curries,near,1,16.52,16.52,Credit Card
+2023-04-15 07:10:46,77521,Gina Mcdonald,Cool Drinks,project,2,16.47,32.94,Cash
+2024-01-26 12:24:22,374054,Joy Keller,Biryani,operation,4,8.83,35.32,Debit Card
+2023-09-07 12:24:43,431024,Tyler Stone,Tea,nor,2,5.0,10.0,Cash
+2023-12-28 02:42:13,395107,Jodi Rush,Roti,within,2,17.22,34.44,Credit Card
+2023-06-17 08:28:00,415384,Teresa Bridges,Cool Drinks,they,5,7.48,37.400000000000006,Credit Card
+2023-05-21 13:31:56,722344,Lydia Diaz,Cool Drinks,likely,2,18.52,37.04,Cash
+2024-03-21 07:06:51,191757,Kari Williams,Ice Cream,can,2,12.35,24.7,Debit Card
+2023-08-08 04:20:02,661404,John Hatfield,Tea,technology,2,19.04,38.08,Credit Card
+2024-01-03 07:56:58,749908,Mathew Martin,Hot Beverages,indeed,3,7.41,22.23,Debit Card
+2023-07-04 00:01:30,703950,Raymond Carrillo DVM,Tea,young,5,18.28,91.4,Credit Card
+2023-11-06 01:11:38,736344,Brenda Solis,Biryani,manager,2,19.96,39.92,Debit Card
+2024-03-21 11:16:21,32215,Lisa Farmer,Fruits,thought,1,18.13,18.13,Cash
+2023-12-08 03:07:07,63974,Jordan Cochran,Roti,power,3,5.58,16.740000000000002,Cash
+2024-02-23 04:02:47,1652,Sean Riley,Curries,tree,2,5.94,11.88,Cash
+2023-11-12 22:12:15,932854,Robert Smith,Hot Beverages,yard,1,10.46,10.46,Credit Card
+2023-11-07 08:08:28,213990,Teresa Rice,Roti,rule,4,11.25,45.0,Cash
+2023-04-30 15:21:28,299053,Michael Wolfe,Fruits,play,2,15.44,30.88,Credit Card
+2023-06-24 23:06:35,200524,Lauren Mills,Ice Cream,also,1,15.79,15.79,Credit Card
+2024-02-11 10:58:04,707338,Richard Shea,Curries,property,4,6.24,24.96,Cash
+2024-03-17 05:47:40,628014,Ethan Tate,Fruits,rather,4,16.0,64.0,Debit Card
+2023-10-01 16:35:33,968335,Brian Watson,Biryani,collection,3,13.67,41.01,Cash
+2023-04-24 05:14:24,745900,Joseph Smith,Fruits,gun,2,8.36,16.72,Cash
+2024-04-05 17:14:11,42986,Bridget Sampson,Cool Drinks,song,1,5.75,5.75,Credit Card
+2023-05-22 01:56:28,48466,Ashley Chavez,Salads,American,1,8.71,8.71,Cash
+2023-06-16 18:08:47,229812,Timothy Torres,Fruits,yet,4,13.65,54.6,Debit Card
+2023-08-17 07:48:10,755614,Maurice Lucas,Pakoras,one,1,17.21,17.21,Credit Card
+2024-01-04 17:08:25,361959,Joshua Alexander,Biryani,imagine,2,8.2,16.4,Cash
+2024-03-16 11:25:44,783508,Kristina Rodriguez,Ice Cream,reason,2,11.32,22.64,Credit Card
+2023-10-21 08:00:02,685086,Jose Perkins,Roti,my,5,16.26,81.30000000000001,Debit Card
+2023-10-02 03:00:08,765317,Scott Day,Biryani,present,2,12.3,24.6,Debit Card
+2023-12-08 01:09:43,464332,Jeremy Spence,Hot Beverages,law,5,18.18,90.9,Credit Card
+2023-10-01 12:40:07,92889,Sheila Glover,Hot Beverages,head,4,10.14,40.56,Debit Card
+2023-08-24 13:44:21,234825,Christina Shaw,Hot Soups,eye,3,9.79,29.369999999999997,Credit Card
+2023-09-11 16:02:41,20448,Kelli Rubio,Hot Soups,open,3,15.84,47.519999999999996,Credit Card
+2023-09-19 07:36:52,777018,Emily Kelly,Coffee,hear,2,9.74,19.48,Cash
+2023-05-01 03:48:16,905074,Ashley Braun,Cool Drinks,effect,5,15.5,77.5,Debit Card
+2023-05-04 05:46:19,464649,Kelsey Carr,Fruits,next,4,9.95,39.8,Debit Card
+2023-10-09 01:30:20,979032,Bridget Rodriguez,Roti,because,3,9.34,28.02,Cash
+2023-06-28 08:44:48,860989,Julia Santos,Salads,action,2,16.01,32.02,Credit Card
+2023-10-30 09:23:31,777664,Brooke Wilson,Biryani,about,3,6.09,18.27,Cash
+2023-05-26 14:04:38,543824,Anthony Allen,Salads,ability,4,14.39,57.56,Cash
+2023-10-30 06:19:40,755718,Joan Lopez,Hot Beverages,floor,3,11.65,34.95,Cash
+2024-02-10 12:43:26,750621,Janet Black,Biryani,for,1,18.59,18.59,Credit Card
+2024-03-08 23:48:08,199177,Scott Sharp,Ice Cream,professional,1,14.66,14.66,Credit Card
+2023-11-11 22:08:56,129363,Jacqueline Maynard,Roti,evening,5,6.95,34.75,Credit Card
+2023-05-30 21:55:59,905074,Phillip Young,Fruits,remember,4,17.98,71.92,Cash
+2024-02-01 18:55:11,853361,Dawn Johnson,Hot Beverages,education,4,6.01,24.04,Credit Card
+2023-11-24 23:03:51,37172,Debbie Nguyen,Biryani,each,1,6.46,6.46,Cash
+2023-10-23 10:42:03,614423,Brian Wilson,Hot Beverages,trip,1,15.42,15.42,Debit Card
+2023-08-11 07:46:28,692448,Mr. Christopher Weeks,Coffee,nothing,3,17.98,53.94,Credit Card
+2024-03-26 15:55:26,463301,Harry Santos,Ice Cream,ball,5,16.71,83.55000000000001,Credit Card
+2023-04-19 15:11:22,848233,Maria Roach,Fruits,rest,4,5.55,22.2,Debit Card
+2024-01-25 20:05:16,480522,Jacqueline Davis,Roti,answer,2,15.25,30.5,Cash
+2024-01-14 06:02:06,156357,David Scott,Biryani,sport,3,9.86,29.58,Debit Card
+2024-02-05 14:01:19,694594,Paula Bond,Biryani,benefit,3,7.66,22.98,Debit Card
+2023-06-16 20:24:53,871464,James Walker,Fruits,money,5,7.49,37.45,Credit Card
+2023-08-09 21:13:28,462805,Robert Mcbride,Pakoras,million,2,8.3,16.6,Cash
+2023-07-18 06:29:40,552170,Christopher Wang,Tea,ago,3,11.85,35.55,Debit Card
+2023-05-06 06:58:31,989750,Julie Baker,Cool Drinks,author,3,10.46,31.380000000000003,Debit Card
+2024-02-26 15:12:31,362965,Michael Owens,Curries,hand,5,16.79,83.94999999999999,Cash
+2024-01-12 16:26:36,157837,Eugene Bell,Curries,minute,5,5.48,27.400000000000002,Cash
+2023-06-26 10:00:45,596821,Elizabeth Scott,Salads,girl,4,7.68,30.72,Cash
+2023-10-08 12:20:49,691958,Jessica Delacruz,Hot Beverages,vote,1,5.44,5.44,Credit Card
+2023-08-05 10:12:23,936762,Spencer Lucas,Tea,company,5,13.87,69.35,Credit Card
+2023-10-22 05:21:51,72045,Ethan Fleming,Biryani,same,1,16.8,16.8,Credit Card
+2023-11-19 02:44:49,983629,Morgan Sullivan,Curries,yes,2,17.84,35.68,Debit Card
+2023-04-16 02:40:52,877910,Rebecca White,Ice Cream,camera,4,14.09,56.36,Credit Card
+2023-06-24 21:29:52,717300,Matthew Rodriguez,Cool Drinks,usually,3,15.73,47.19,Credit Card
+2023-11-17 04:36:43,164954,Sarah Davis,Curries,I,1,6.48,6.48,Cash
+2024-02-08 19:25:12,227502,Dennis Miller,Roti,system,3,8.47,25.410000000000004,Cash
+2023-11-24 20:52:34,318780,Javier Gamble,Biryani,serious,4,15.64,62.56,Debit Card
+2024-02-10 04:19:01,328884,Tanya Lee,Curries,senior,2,14.51,29.02,Cash
+2023-10-14 08:30:46,85395,Sheila Stephens,Hot Beverages,political,2,11.16,22.32,Credit Card
+2023-10-29 16:47:28,935630,James Washington,Biryani,able,4,7.35,29.4,Debit Card
+2023-06-18 04:09:52,117118,Cynthia Short,Cool Drinks,film,3,17.85,53.550000000000004,Cash
+2023-11-15 15:23:04,48571,Jaclyn Camacho,Roti,level,1,9.34,9.34,Cash
+2023-12-30 07:31:01,255360,Laurie Peterson,Hot Beverages,skin,5,19.11,95.55,Credit Card
+2024-02-22 09:20:54,715200,Bryan Evans,Curries,try,5,5.92,29.6,Debit Card
+2024-01-24 17:26:39,157513,Keith Stokes,Hot Beverages,generation,4,8.33,33.32,Credit Card
+2023-07-29 07:48:09,502752,Paul Little,Hot Soups,direction,5,8.65,43.25,Debit Card
+2023-07-20 07:35:20,997716,Joshua Lewis,Tea,in,4,11.2,44.8,Debit Card
+2024-03-26 03:40:34,774110,Chloe Allen MD,Salads,somebody,1,9.79,9.79,Debit Card
+2024-03-17 03:57:31,923339,Brandy Webb,Fruits,brother,2,13.44,26.88,Debit Card
+2024-02-10 20:23:26,484156,William Hall,Hot Beverages,institution,3,7.1,21.299999999999997,Cash
+2024-03-19 14:47:22,237427,Teresa Hart,Salads,several,5,14.6,73.0,Credit Card
+2023-07-09 13:05:59,118054,Matthew Joseph,Pakoras,power,1,7.85,7.85,Debit Card
+2024-01-11 22:54:05,120021,Dennis Decker,Roti,boy,5,9.56,47.800000000000004,Cash
+2024-01-09 13:50:31,798207,James Lawrence,Roti,sing,5,8.12,40.599999999999994,Debit Card
+2023-05-07 00:40:35,341189,Patrick Harrington II,Salads,chance,4,6.04,24.16,Credit Card
+2023-05-26 00:44:13,492517,David Luna,Ice Cream,rock,3,15.75,47.25,Cash
+2024-02-11 18:06:50,78012,Robert Carter,Roti,game,4,16.09,64.36,Debit Card
+2023-04-18 13:15:49,385334,David Thompson,Ice Cream,general,4,15.95,63.8,Cash
+2023-04-28 12:43:09,981113,Anne Stevens,Ice Cream,best,4,19.92,79.68,Debit Card
+2023-06-18 19:05:24,154341,Doris Caldwell,Ice Cream,each,4,12.58,50.32,Cash
+2023-04-28 20:52:18,736972,Joseph Johnson,Cool Drinks,together,2,16.22,32.44,Debit Card
+2024-02-19 23:14:52,970337,Jon Jones,Roti,visit,1,13.78,13.78,Debit Card
+2023-07-23 07:37:31,331537,Carrie Daniels,Coffee,difficult,4,18.25,73.0,Credit Card
+2024-01-14 04:03:00,653273,Mario Nelson,Hot Beverages,bar,1,19.61,19.61,Credit Card
+2023-09-15 14:09:46,548798,James Clements,Tea,activity,5,13.8,69.0,Credit Card
+2023-04-29 11:04:15,254927,Andres Rivera,Salads,shoulder,4,19.16,76.64,Debit Card
+2023-11-12 07:24:25,666980,Wesley Atkins,Biryani,serve,1,15.14,15.14,Credit Card
+2023-06-24 13:59:58,181529,Austin Fernandez,Cool Drinks,two,4,15.7,62.8,Cash
+2023-06-07 11:54:19,83631,Gary Harris,Fruits,good,3,10.56,31.68,Debit Card
+2023-09-01 21:37:11,775116,Brent Martinez,Hot Soups,attention,3,11.09,33.269999999999996,Cash
+2023-12-23 12:20:20,536214,Tabitha Santiago,Biryani,management,1,6.34,6.34,Cash
+2023-07-28 21:07:08,596124,William Davidson,Tea,good,2,19.46,38.92,Debit Card
+2023-11-20 09:26:50,442540,Jeremy Parker,Hot Beverages,financial,1,14.21,14.21,Cash
+2023-09-06 22:14:11,540279,Darius Benitez,Hot Soups,change,2,16.98,33.96,Credit Card
+2023-08-21 09:53:38,674551,Ronald Williams,Tea,politics,5,16.68,83.4,Cash
+2023-08-08 03:04:33,881508,Anthony Velasquez,Coffee,whether,2,19.43,38.86,Debit Card
+2024-01-10 22:56:30,429198,Rose Lee,Biryani,ok,4,7.22,28.88,Cash
+2023-09-30 13:32:54,724906,Michael Collins,Tea,out,5,6.4,32.0,Cash
+2023-10-09 06:56:11,18871,Rachel Pratt,Roti,order,1,19.73,19.73,Debit Card
+2024-02-23 22:24:04,718470,Frank West,Curries,plan,5,9.97,49.85,Cash
+2024-02-04 23:49:13,582992,Lisa Joyce,Roti,bill,3,8.2,24.599999999999998,Debit Card
+2023-11-27 05:11:10,373727,Daniel Parks,Biryani,central,2,12.56,25.12,Debit Card
+2023-07-23 05:49:49,751080,Rose Schwartz,Coffee,every,4,10.42,41.68,Debit Card
+2023-05-06 23:43:37,903833,Michelle Anderson,Cool Drinks,worry,4,10.15,40.6,Cash
+2023-12-16 23:27:57,29907,Hannah Sparks,Biryani,sister,3,16.63,49.89,Debit Card
+2023-06-03 23:23:47,528078,Joseph Foster,Salads,current,1,13.34,13.34,Cash
+2023-10-20 00:04:47,900364,Mason Beltran,Roti,radio,1,15.15,15.15,Cash
+2024-03-01 11:25:07,60575,Misty Rivera,Cool Drinks,force,2,10.69,21.38,Cash
+2023-11-18 10:21:01,24775,Gary Norris,Hot Beverages,because,3,13.31,39.93,Cash
+2023-05-15 09:49:54,530878,Daniel Page,Cool Drinks,bill,5,14.03,70.14999999999999,Debit Card
+2023-08-26 06:31:30,499516,Brian Woodard,Hot Soups,industry,4,8.32,33.28,Debit Card
+2023-07-28 12:30:49,952099,Christine Macias,Tea,ready,4,9.63,38.52,Credit Card
+2024-02-19 11:38:46,149969,Jason Cain,Curries,resource,3,16.35,49.050000000000004,Debit Card
+2024-02-04 22:25:50,523103,Jason Ashley,Roti,himself,5,6.11,30.55,Debit Card
+2024-04-06 02:27:45,165102,Jacob Potter,Fruits,pay,2,13.04,26.08,Cash
+2023-05-08 08:58:24,277668,Ryan Baker,Cool Drinks,source,2,5.6,11.2,Credit Card
+2023-06-24 17:36:49,808270,Kathleen Mejia,Salads,after,4,9.13,36.52,Credit Card
+2023-08-12 20:08:07,158884,Elizabeth Clark,Pakoras,country,4,12.67,50.68,Credit Card
+2023-10-23 00:32:34,941588,Robert Benson,Roti,serious,4,19.11,76.44,Credit Card
+2024-03-28 08:24:38,549116,Jeffrey Barton,Fruits,compare,4,19.42,77.68,Credit Card
+2023-11-25 18:59:28,228270,Steven Williams,Biryani,end,2,9.9,19.8,Cash
+2023-04-28 23:29:01,477074,Katherine Giles,Cool Drinks,garden,1,10.45,10.45,Debit Card
+2023-11-05 21:20:25,77472,Michelle Gilbert,Roti,want,3,17.96,53.88,Credit Card
+2024-02-28 21:20:46,52908,Heather Roberts,Hot Beverages,company,4,15.67,62.68,Debit Card
+2024-02-18 02:04:49,862469,Raymond Maddox,Hot Beverages,lead,2,10.45,20.9,Debit Card
+2023-12-09 08:27:27,922796,Austin Allison,Hot Beverages,interview,2,18.17,36.34,Debit Card
+2023-04-16 12:46:57,980930,Jeremy Wood,Salads,weight,3,5.66,16.98,Cash
+2024-01-27 22:50:47,627054,Jennifer Rojas,Hot Beverages,laugh,2,7.39,14.78,Credit Card
+2023-08-11 11:59:15,304403,Walter Silva,Tea,game,2,13.94,27.88,Credit Card
+2024-03-04 19:05:52,735471,Christopher Blake,Cool Drinks,star,5,9.72,48.6,Cash
+2023-07-14 15:34:59,278916,Kimberly Carr,Tea,place,5,18.8,94.0,Cash
+2023-08-06 06:51:07,218973,Michael Lawrence,Tea,response,5,9.93,49.65,Debit Card
+2024-02-24 09:48:59,360685,Tammy Coleman,Curries,move,2,7.79,15.58,Credit Card
+2023-06-17 14:31:37,208890,Brenda Jones,Cool Drinks,already,1,10.81,10.81,Cash
+2023-05-29 09:54:57,864009,Mary Ball,Ice Cream,grow,3,10.03,30.089999999999996,Cash
+2023-09-25 11:27:27,179704,Aaron Mccarthy,Hot Soups,adult,5,9.07,45.35,Credit Card
+2024-01-09 14:05:25,499463,Lauren Williams,Hot Beverages,with,4,19.7,78.8,Debit Card
+2023-08-09 08:06:48,381466,Miguel Brown,Tea,might,2,17.62,35.24,Debit Card
+2023-05-18 20:53:59,225969,Regina Chavez,Ice Cream,wish,1,18.01,18.01,Debit Card
+2023-11-05 17:05:00,804241,Matthew George,Hot Beverages,western,1,18.02,18.02,Debit Card
+2023-11-03 12:41:40,898073,Joe Stone,Biryani,himself,4,8.6,34.4,Debit Card
+2023-05-18 05:25:11,214246,Jasmine Summers,Cool Drinks,example,4,10.0,40.0,Credit Card
+2023-04-12 23:54:04,486780,Kathy Williams,Salads,fish,4,19.02,76.08,Debit Card
+2023-05-17 02:24:09,973452,Michelle Edwards,Cool Drinks,science,1,13.52,13.52,Debit Card
+2023-05-31 04:23:14,105447,Darrell Martin,Fruits,large,2,13.81,27.62,Cash
+2023-11-06 07:24:46,854380,Jennifer Mendoza,Hot Beverages,develop,1,6.7,6.7,Debit Card
+2023-08-16 00:47:43,827512,Michael Pineda,Pakoras,week,1,11.68,11.68,Cash
+2024-02-17 18:48:54,566860,Christian Day,Hot Beverages,like,4,10.08,40.32,Debit Card
+2023-08-27 20:38:07,891691,Timothy Stevens,Tea,baby,5,10.87,54.349999999999994,Cash
+2023-08-30 01:03:12,43553,Robert Wells,Coffee,generation,4,15.13,60.52,Cash
+2023-04-25 21:30:34,398551,Victor Smith,Salads,music,1,17.1,17.1,Credit Card
+2024-01-09 00:45:15,307515,Michael Allen,Roti,where,4,14.25,57.0,Cash
+2023-05-28 21:41:40,581542,Kevin Foley,Fruits,national,1,18.03,18.03,Debit Card
+2023-10-27 05:58:28,510648,Zachary Williams,Roti,those,1,9.29,9.29,Credit Card
+2023-05-12 06:46:04,507580,David Jenkins,Salads,all,4,14.31,57.24,Cash
+2023-04-13 22:56:35,685167,Chad Wood,Ice Cream,how,3,8.63,25.89,Credit Card
+2024-04-01 00:38:26,333759,Jonathan Franklin,Ice Cream,training,4,13.93,55.72,Debit Card
+2024-02-08 01:26:15,837824,Brenda Perry,Roti,direction,2,12.49,24.98,Cash
+2023-09-09 18:44:48,462877,Bonnie Robinson,Hot Soups,lead,2,18.97,37.94,Debit Card
+2024-01-21 09:31:26,987574,Ashley Smith,Biryani,quality,2,8.87,17.74,Cash
+2023-10-11 21:48:05,657826,Renee Bowen,Biryani,choice,5,13.17,65.85,Debit Card
+2023-12-06 15:30:16,883745,Marissa Gill,Biryani,remember,5,18.12,90.60000000000001,Credit Card
+2023-06-08 08:23:50,957286,Justin Johnson,Cool Drinks,determine,4,11.68,46.72,Credit Card
+2024-02-29 02:55:43,494975,Lisa Watkins,Roti,will,3,17.32,51.96,Cash
+2023-11-12 00:28:48,799887,Gregory Townsend,Biryani,mission,2,6.93,13.86,Credit Card
+2023-04-28 20:51:33,100885,Elizabeth Mitchell,Salads,very,4,9.69,38.76,Debit Card
+2024-01-15 03:53:21,553227,Paul Black,Roti,production,2,13.9,27.8,Credit Card
+2023-10-14 02:49:23,493906,Kyle Smith,Curries,control,2,18.55,37.1,Debit Card
+2024-02-03 12:54:26,576849,Jeremy Boyd,Biryani,work,3,16.38,49.14,Credit Card
+2024-03-11 13:50:55,978760,Tiffany Nichols,Cool Drinks,manager,3,14.18,42.54,Debit Card
+2024-02-07 05:33:02,618028,Becky Decker,Roti,shake,4,10.1,40.4,Cash
+2024-01-25 15:24:01,998210,Kristen Mcintyre,Hot Beverages,government,4,9.5,38.0,Debit Card
+2023-11-10 02:43:18,156683,Melissa Martinez,Curries,fact,5,6.58,32.9,Credit Card
+2023-10-20 15:03:49,472761,Michael Conner II,Biryani,response,5,9.37,46.849999999999994,Credit Card
+2023-05-20 19:31:59,890154,Charles Dorsey,Salads,our,5,6.78,33.9,Cash
+2024-03-29 05:34:15,357872,Jonathan Fleming,Cool Drinks,old,2,11.68,23.36,Credit Card
+2023-06-04 13:38:49,567773,Crystal Boone,Salads,somebody,3,9.88,29.64,Cash
+2023-10-17 20:14:01,936476,John Bishop,Curries,after,4,14.0,56.0,Credit Card
+2024-03-10 04:26:23,805970,Brooke Romero,Fruits,baby,2,9.3,18.6,Credit Card
+2023-06-03 22:40:50,297897,Ashley Cortez,Salads,no,4,10.97,43.88,Credit Card
+2023-07-19 19:30:43,841357,Karla Mitchell,Tea,claim,2,9.24,18.48,Cash
+2024-02-01 16:42:49,656177,Edward Carter,Curries,Democrat,3,19.82,59.46,Credit Card
+2023-12-17 02:52:48,653713,Shannon Schaefer,Biryani,image,4,8.96,35.84,Debit Card
+2023-04-12 20:43:42,710629,Bailey Bell,Ice Cream,floor,3,14.36,43.08,Cash
+2024-01-26 04:01:06,88642,Shannon George,Biryani,husband,4,19.8,79.2,Debit Card
+2024-03-17 11:58:13,442336,Candace Wright,Ice Cream,low,2,12.62,25.24,Cash
+2024-03-01 00:44:09,355554,Carlos Reed,Fruits,reason,2,5.73,11.46,Debit Card
+2023-12-26 19:02:43,90566,Natasha Newman,Curries,while,2,14.93,29.86,Cash
+2023-05-12 00:07:17,783334,Angela Bush,Ice Cream,evidence,3,13.93,41.79,Credit Card
+2023-10-30 16:37:30,31976,Benjamin Donovan,Hot Beverages,third,1,6.29,6.29,Cash
+2023-11-16 23:11:02,641720,Emily Nelson,Hot Beverages,police,4,9.7,38.8,Debit Card
+2023-10-12 05:55:34,185510,Mike Rodriguez,Biryani,skill,4,6.25,25.0,Debit Card
+2023-07-01 13:52:27,909027,Gary Kemp,Hot Soups,from,2,17.2,34.4,Debit Card
+2023-05-02 05:55:15,400481,Sandra Johnson,Ice Cream,computer,3,17.41,52.230000000000004,Cash
+2024-03-30 10:13:31,272744,James Jensen,Cool Drinks,time,4,19.29,77.16,Cash
+2023-06-28 00:30:01,292308,Melissa Evans,Fruits,ago,1,10.66,10.66,Credit Card
+2023-10-05 00:24:23,216945,Kenneth Evans,Curries,identify,1,16.64,16.64,Debit Card
+2023-11-15 15:30:51,607077,Cynthia Aguilar,Roti,recent,4,5.35,21.4,Debit Card
+2024-01-17 01:30:56,640630,Katherine Cooper,Curries,family,2,17.62,35.24,Cash
+2023-07-04 19:55:52,81583,Matthew Spears,Tea,sea,5,7.75,38.75,Cash
+2023-07-04 07:00:53,559077,Cole Strickland,Coffee,around,2,16.19,32.38,Cash
+2023-07-12 12:41:30,502762,Erin Brown,Hot Soups,guess,4,14.05,56.2,Cash
+2023-07-13 02:00:41,454202,Joshua Jones,Hot Soups,as,5,7.34,36.7,Cash
+2023-06-22 21:13:33,360935,William Wheeler,Salads,item,4,6.96,27.84,Credit Card
+2023-12-22 08:08:10,678813,Sara Salas,Curries,fish,3,19.06,57.17999999999999,Debit Card
+2024-02-09 23:32:52,719780,John Kim,Hot Beverages,until,5,14.11,70.55,Debit Card
+2023-07-26 09:23:59,308659,Lisa Diaz,Pakoras,probably,3,13.86,41.58,Debit Card
+2024-02-19 15:51:03,925609,Anthony Bryant,Biryani,property,3,8.38,25.14,Debit Card
+2023-04-16 16:33:45,994530,Mackenzie Porter,Ice Cream,own,5,15.83,79.15,Cash
+2023-11-28 13:12:02,420069,Megan Gaines,Hot Beverages,song,3,14.13,42.39,Cash
+2024-03-03 20:19:24,873826,David Pennington,Salads,player,2,13.21,26.42,Credit Card
+2023-06-06 02:33:31,715676,Gregory Buchanan,Salads,program,2,7.91,15.82,Debit Card
+2023-09-02 16:18:24,420984,Jennifer Allen,Hot Soups,resource,1,8.01,8.01,Debit Card
+2023-05-12 03:04:39,446619,Brian Raymond,Salads,middle,5,13.53,67.64999999999999,Credit Card
+2023-06-27 20:47:49,833614,Timothy Jones,Ice Cream,recent,4,10.43,41.72,Cash
+2024-02-22 07:49:07,744442,Erika Walker,Biryani,color,4,9.06,36.24,Credit Card
+2023-05-09 21:57:01,824820,Robert Clark,Ice Cream,manage,4,7.69,30.76,Cash
+2024-03-26 21:42:40,504216,Sophia Davis,Fruits,method,2,16.81,33.62,Credit Card
+2023-08-13 14:58:42,191875,Mia Gutierrez,Coffee,participant,4,6.39,25.56,Credit Card
+2024-03-19 12:17:41,5290,Jack Peterson,Salads,century,2,5.96,11.92,Cash
+2023-10-04 22:11:18,144079,Bonnie Castillo,Biryani,everyone,3,10.71,32.13,Credit Card
+2024-03-23 17:08:04,893975,Kevin Garza,Salads,scientist,2,19.63,39.26,Credit Card
+2023-10-06 17:42:05,839689,Alexandra Oliver,Hot Beverages,suffer,5,16.78,83.9,Debit Card
+2023-07-15 01:22:17,946205,Jenna Robertson,Tea,half,5,14.67,73.35,Credit Card
+2023-11-01 04:09:15,571359,Debra Webster,Curries,throw,3,5.11,15.330000000000002,Credit Card
+2023-06-18 02:35:01,252958,Jennifer Gonzales,Salads,traditional,2,13.69,27.38,Debit Card
+2023-05-13 14:37:21,811992,Roberto Foster,Ice Cream,although,3,15.85,47.55,Cash
+2023-10-19 10:16:21,820285,Peter Anderson,Biryani,success,5,17.15,85.75,Cash
+2024-03-15 13:16:40,883233,Ashley Herring,Ice Cream,section,3,17.64,52.92,Credit Card
+2024-02-29 08:50:07,510204,Joe Lopez,Curries,then,5,18.2,91.0,Credit Card
+2024-02-27 22:16:35,502568,Nathaniel Bennett,Roti,at,1,9.53,9.53,Cash
+2023-11-30 10:13:43,197284,Julie Day,Roti,listen,3,9.63,28.89,Cash
+2023-10-06 14:01:02,79088,Neil Livingston,Curries,poor,4,17.72,70.88,Credit Card
+2023-07-09 15:44:37,328665,Angelica Smith,Coffee,and,1,19.23,19.23,Cash
+2023-08-17 10:27:10,55925,Robert Mcclain,Hot Soups,must,5,19.73,98.65,Debit Card
+2023-12-25 14:43:34,651032,Andrea Collins,Curries,yourself,2,13.73,27.46,Debit Card
+2023-09-26 15:49:17,458313,Taylor Smith,Pakoras,either,4,15.57,62.28,Credit Card
+2023-04-22 03:31:10,345280,Edward Sullivan,Salads,base,5,14.37,71.85,Cash
+2023-11-11 17:51:40,798914,Melvin Wright,Curries,right,2,14.08,28.16,Debit Card
+2024-01-31 12:53:30,300241,Charles Cook,Roti,approach,2,14.12,28.24,Credit Card
+2024-01-26 20:02:49,923160,Yvonne Perez,Biryani,threat,3,9.97,29.910000000000004,Cash
+2023-08-17 14:49:54,682994,Norma Joseph,Tea,so,4,17.57,70.28,Cash
+2024-01-27 21:00:34,429391,Barbara Bush,Roti,risk,2,10.59,21.18,Debit Card
+2023-06-16 09:36:56,879607,Olivia Ray,Salads,particular,3,9.08,27.240000000000002,Cash
+2023-07-15 07:03:03,199526,Brittany Guerrero,Pakoras,crime,2,19.15,38.3,Debit Card
+2023-12-14 20:17:02,464911,Kimberly Nichols,Curries,with,1,6.67,6.67,Debit Card
+2023-04-11 14:13:51,191745,Breanna Gutierrez,Fruits,represent,1,11.45,11.45,Debit Card
+2023-11-21 21:18:33,358319,Hunter Williamson,Biryani,information,1,12.33,12.33,Credit Card
+2023-10-29 17:37:13,290471,Connor Lane,Hot Beverages,really,3,18.42,55.260000000000005,Cash
+2023-07-28 15:37:59,842645,Charles Cameron,Tea,test,2,19.91,39.82,Debit Card
+2023-11-07 22:25:27,498446,Patrick Woodward,Curries,various,3,13.72,41.160000000000004,Debit Card
+2023-08-21 23:04:21,133448,Daniel Wilson,Tea,they,4,19.58,78.32,Debit Card
+2023-12-12 04:35:56,476710,Christopher Brooks,Biryani,still,3,9.29,27.869999999999997,Credit Card
+2024-02-27 16:30:45,575118,Sara Dixon,Curries,fire,5,12.92,64.6,Credit Card
+2023-04-11 15:59:54,233090,Jennifer Phillips,Salads,network,3,6.77,20.31,Debit Card
+2023-11-26 11:23:40,865491,Brandon Clarke,Biryani,herself,4,6.79,27.16,Debit Card
+2023-04-30 02:10:28,468933,David Stone,Salads,on,2,10.31,20.62,Cash
+2023-07-23 20:25:03,380233,Lisa Wilkerson,Coffee,then,1,11.17,11.17,Credit Card
+2023-09-09 17:34:15,547991,Erika Smith,Pakoras,offer,5,17.96,89.80000000000001,Debit Card
+2024-01-29 02:33:15,794128,Daisy Singh,Hot Beverages,compare,5,5.25,26.25,Debit Card
+2023-09-11 19:19:08,372314,Vicki Gray,Coffee,gas,5,10.62,53.099999999999994,Cash
+2023-11-26 03:17:55,171194,Adam Fox,Hot Beverages,shake,4,14.37,57.48,Cash
+2023-06-01 11:48:50,665853,Valerie Bender,Cool Drinks,now,2,7.38,14.76,Credit Card
+2023-11-11 14:59:31,625106,Devin Oliver,Biryani,feel,4,5.65,22.6,Cash
+2024-02-11 00:08:22,637776,Jessica Fisher,Hot Beverages,analysis,5,19.9,99.5,Credit Card
+2023-07-06 12:55:25,442277,Clayton Boyle,Tea,for,2,8.15,16.3,Credit Card
+2023-10-17 03:55:01,667120,Donald Mcintosh,Biryani,career,4,13.9,55.6,Debit Card
+2023-12-28 21:05:57,985125,Erin Hester,Biryani,owner,3,6.88,20.64,Credit Card
+2023-08-07 14:04:03,414848,Jessica Ellis,Hot Soups,reason,2,6.37,12.74,Cash
+2023-05-18 18:29:46,104344,Latoya Riggs,Ice Cream,war,2,12.55,25.1,Debit Card
+2023-12-12 08:47:12,514603,Rachel Smith,Hot Beverages,mouth,1,7.8,7.8,Debit Card
+2023-08-18 14:35:04,708939,Martha Williamson,Tea,everything,5,6.23,31.150000000000002,Debit Card
+2023-08-28 11:14:51,190782,Harold Chung,Tea,son,4,18.11,72.44,Debit Card
+2024-02-16 18:30:40,459435,Tracie Clay,Biryani,trial,1,7.82,7.82,Cash
+2023-10-22 17:00:04,790155,Ryan Hill,Curries,our,2,8.69,17.38,Debit Card
+2023-07-21 03:14:17,595838,Alicia Hall,Hot Soups,raise,4,18.71,74.84,Debit Card
+2023-08-22 21:13:17,895674,Taylor Andrews,Pakoras,during,2,11.94,23.88,Cash
+2023-09-10 14:24:27,473006,Crystal Blair,Pakoras,build,2,8.91,17.82,Debit Card
+2024-03-26 04:31:32,972653,Thomas Russell,Fruits,town,2,14.58,29.16,Debit Card
+2023-04-26 19:24:38,785308,David Byrd,Fruits,population,5,9.23,46.150000000000006,Debit Card
+2023-10-09 19:04:38,701132,Richard Carson,Biryani,have,1,7.96,7.96,Debit Card
+2023-08-05 10:28:48,140678,Eddie Blackwell,Coffee,education,3,13.99,41.97,Credit Card
+2023-09-29 09:09:10,289817,Jennifer Brown,Coffee,exist,3,14.64,43.92,Cash
+2023-09-11 22:52:53,740191,Teresa Petty,Pakoras,public,4,12.12,48.48,Cash
+2023-10-04 11:22:43,477647,Andre Holland,Roti,mother,2,19.97,39.94,Credit Card
+2024-01-25 14:25:40,376931,Jenna Turner,Hot Beverages,control,4,12.96,51.84,Cash
+2024-02-04 13:55:23,932009,Patrick Butler,Curries,show,3,11.84,35.519999999999996,Cash
+2024-01-01 23:40:56,549340,Amanda Smith,Biryani,wish,3,15.82,47.46,Cash
+2023-12-30 05:55:16,138760,Mary Ramirez,Roti,pass,2,15.46,30.92,Cash
+2023-04-11 00:53:15,706808,Tamara Giles,Cool Drinks,gas,3,13.26,39.78,Cash
+2023-08-11 18:21:52,406509,Betty Johnson,Coffee,work,4,10.68,42.72,Credit Card
+2023-12-23 22:18:20,685931,Kylie Baldwin,Curries,need,5,10.66,53.3,Cash
+2023-07-16 12:34:12,992331,Jessica Davis,Pakoras,town,3,10.65,31.950000000000003,Debit Card
+2023-11-29 14:09:31,781298,Casey Munoz,Biryani,long,3,14.56,43.68,Credit Card
+2023-09-15 20:36:40,719781,Karen Perry,Pakoras,cost,5,16.54,82.69999999999999,Debit Card
+2023-10-11 20:35:56,338863,Megan Wong,Curries,very,4,6.78,27.12,Cash
+2023-11-18 12:34:39,143199,Christopher Miller,Roti,traditional,5,15.69,78.45,Credit Card
+2023-11-25 13:37:04,861278,Jose Wu,Hot Beverages,article,3,9.63,28.89,Credit Card
+2024-03-30 02:57:33,71423,Sydney Blake,Fruits,party,1,8.98,8.98,Debit Card
+2024-03-23 23:05:53,974319,Joseph Cisneros,Cool Drinks,east,4,10.84,43.36,Cash
+2024-03-08 00:03:02,766327,Cathy Chan,Salads,citizen,3,6.57,19.71,Cash
+2023-10-23 22:41:56,740184,Veronica Torres,Biryani,voice,1,16.49,16.49,Credit Card
+2024-02-03 10:29:58,243801,Miguel Grant,Curries,her,4,19.92,79.68,Cash
+2023-07-21 20:59:10,318076,Diane Thompson,Tea,crime,2,12.56,25.12,Credit Card
+2023-11-03 09:56:58,458958,Angel Bauer,Biryani,course,1,13.55,13.55,Credit Card
+2023-11-02 13:50:57,890879,Jill Curtis,Roti,thousand,2,17.29,34.58,Credit Card
+2023-07-11 12:26:07,873867,Sarah Norris,Coffee,east,2,12.82,25.64,Debit Card
+2023-05-20 12:31:02,620906,Shane Kelly,Ice Cream,be,5,6.59,32.95,Credit Card
+2023-12-27 10:36:24,701755,Kaitlin Singleton,Biryani,discuss,2,15.19,30.38,Credit Card
+2023-11-03 19:25:03,58707,Ashley Whitehead,Curries,rise,5,9.3,46.5,Debit Card
+2023-04-14 03:42:31,822595,Madison Garcia,Salads,trade,1,6.1,6.1,Cash
+2023-07-14 06:52:16,537282,David Scott,Pakoras,election,3,5.99,17.97,Cash
+2023-09-27 15:31:40,442376,Elizabeth Obrien,Tea,must,5,6.92,34.6,Cash
+2023-07-27 15:53:14,672507,Kelsey Jones,Tea,week,1,16.18,16.18,Debit Card
+2023-09-21 14:40:44,240965,Michael Cole,Coffee,cut,4,16.57,66.28,Credit Card
+2024-03-10 15:02:14,883404,Douglas Evans,Salads,anyone,3,16.64,49.92,Debit Card
+2023-08-12 11:07:44,558750,Kimberly Clark,Pakoras,way,2,13.82,27.64,Debit Card
+2023-07-25 03:20:05,156762,Beth Brown,Hot Soups,information,4,6.66,26.64,Credit Card
+2023-10-18 11:11:21,419733,Lisa Rodriguez,Hot Beverages,off,2,8.76,17.52,Credit Card
+2023-05-05 23:25:12,94802,Denise Smith,Fruits,image,4,8.55,34.2,Credit Card
