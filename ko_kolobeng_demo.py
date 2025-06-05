@@ -1,4 +1,4 @@
-# ko_kolobeng_demo.py
+# ko_kolobeng_demo.py (Updated to use Store Sales Time Series Forecasting dataset)
 
 import streamlit as st
 import pandas as pd
@@ -19,38 +19,39 @@ warnings.filterwarnings("ignore", category=UserWarning, module="prophet")
 @st.cache_data # Cache the data loading and initial processing
 def load_and_preprocess_data():
     """
-    Loads the restaurant dataset from Kaggle Hub and performs initial preprocessing.
+    Loads the alternative 'Store Sales - Time Series Forecasting' dataset from Kaggle Hub
+    and performs initial preprocessing.
     Returns a DataFrame with daily product sales, or an empty DataFrame if loading fails.
     """
     df = None # Initialize df to None outside the try block
 
     try:
-        # --- IMPORTANT CHANGE: Load the new restaurant dataset ---
+        # --- IMPORTANT CHANGE: Load the NEW ALTERNATIVE dataset ---
         df = kagglehub.load_dataset(
             KaggleDatasetAdapter.PANDAS,
-            "ganeshabbitota/pos-data-simulated-restaurant-data", # New dataset identifier
-            "pos_data.csv" # The specific CSV file within the dataset
+            "store-sales-time-series-forecasting", # Competition dataset identifier
+            "train.csv" # The primary training data file
         )
     except Exception as e:
         st.error(f"Error loading dataset: {e}. Please check your internet connection or KaggleHub setup.")
-        # If loading fails, return an empty DataFrame to prevent UnboundLocalError
-        return pd.DataFrame()
+        return pd.DataFrame() # Return an empty DataFrame to prevent UnboundLocalError
 
-    # If df is still None or empty after the try block (as a safeguard)
     if df is None or df.empty:
         st.warning("No data loaded. Please ensure the dataset exists and can be accessed.")
         return pd.DataFrame()
 
-    # --- IMPORTANT CHANGE: Convert 'timestamp' to datetime and extract date ---
-    df['timestamp'] = pd.to_datetime(df['timestamp'])
-    df['invoice_date'] = df['timestamp'].dt.date # Extract date only for daily aggregation
+    # --- IMPORTANT CHANGE: Adapt column names and aggregation for new dataset ---
+    # Original columns: 'date', 'store_nbr', 'family', 'sales', 'onpromotion'
+    df['date'] = pd.to_datetime(df['date'])
+    df['invoice_date'] = df['date'].dt.date # Extract date only for daily aggregation
 
-    # --- IMPORTANT CHANGE: Group by extracted date and 'item name' ---
-    daily_product_sales = df.groupby(['invoice_date', 'item name'])['quantity'].sum().reset_index()
+    # Group by date and 'family' (which represents product categories)
+    # Sum 'sales' as the quantity for a given 'family' on a given day
+    daily_product_sales = df.groupby(['invoice_date', 'family'])['sales'].sum().reset_index()
     daily_product_sales['invoice_date'] = pd.to_datetime(daily_product_sales['invoice_date']) # Convert back to datetime for Prophet
 
-    # --- IMPORTANT CHANGE: Rename 'item name' to 'category' ---
-    daily_product_sales = daily_product_sales.rename(columns={'item name': 'category'})
+    # Rename columns to match expected for Prophet
+    daily_product_sales = daily_product_sales.rename(columns={'family': 'category', 'sales': 'quantity'})
 
     return daily_product_sales
 
@@ -66,31 +67,23 @@ def train_prophet_model(df_sales, selected_product_name):
     if product_df.empty:
         return None, None # No data for this product
 
-    # Ensure all dates are present in the time series (fill missing with 0)
-    # Use the entire date range from the loaded dataset for robustness
-    start_date = df_sales['invoice_date'].min() # Use overall min/max date from the full dataset
+    start_date = df_sales['invoice_date'].min()
     end_date = df_sales['invoice_date'].max()
     full_date_range = pd.date_range(start=start_date, end=end_date, freq='D')
 
     full_product_df = pd.DataFrame({'invoice_date': full_date_range})
-    full_product_df['category'] = selected_product_name # Assign category for merge
+    full_product_df['category'] = selected_product_name
 
     product_df_filled = pd.merge(full_product_df, product_df, on=['invoice_date', 'category'], how='left')
     product_df_filled['quantity'] = product_df_filled['quantity'].fillna(0)
 
-    # Prepare data for Prophet: needs 'ds' (datestamp) and 'y' (quantity)
     prophet_df = product_df_filled.rename(columns={'invoice_date': 'ds', 'quantity': 'y'})
 
-    # --- Check for sufficient data for Prophet to fit ---
-    # Prophet needs at least 2 non-zero sales days to identify a trend.
-    # Check if there are at least 2 distinct non-zero values in 'y'
     if prophet_df['y'].count() < 2 or prophet_df[prophet_df['y'] > 0].shape[0] < 2:
-        return None, None # Not enough data for a meaningful forecast
+        return None, None
 
-    # Get South African holidays (for demonstration of capability)
-    # Adjust years based on your dataset's date range and current year for holiday relevance
     holiday_start_year = prophet_df['ds'].min().year
-    holiday_end_year = prophet_df['ds'].max().year + 2 # Extend a bit into the future for forecasts
+    holiday_end_year = prophet_df['ds'].max().year + 2
     sa_holidays = holidays.country_holidays(
         'ZA',
         years=range(holiday_start_year, holiday_end_year)
@@ -105,18 +98,15 @@ def train_prophet_model(df_sales, selected_product_name):
     model = Prophet(
         yearly_seasonality=True,
         weekly_seasonality=True,
-        daily_seasonality=False, # Often not enough data for daily seasonality unless very long dataset
+        daily_seasonality=False,
         holidays=sa_holidays_df
     )
-    # Additive seasonality components for restaurant business (e.g., weekend rush)
-    model.add_seasonality(name='monthly', period=30.5, fourier_order=5) # Example for monthly trends
-    model.add_seasonality(name='quarterly', period=91.25, fourier_order=5) # Example for quarterly trends
+    model.add_seasonality(name='monthly', period=30.5, fourier_order=5)
+    model.add_seasonality(name='quarterly', period=91.25, fourier_order=5)
 
     model.fit(prophet_df)
 
-    # Make future dataframe for 30 days (for next month's forecast)
     future = model.make_future_dataframe(periods=30, freq='D')
-
     forecast = model.predict(future)
 
     return model, forecast
@@ -124,8 +114,8 @@ def train_prophet_model(df_sales, selected_product_name):
 # --- Streamlit App Layout ---
 st.set_page_config(
     page_title="Ko Kolobeng: Smart Restaurant Insights Demo",
-    layout="wide", # Use wide layout for better visualization
-    initial_sidebar_state="expanded" # Sidebar expanded by default
+    layout="wide",
+    initial_sidebar_state="expanded"
 )
 
 st.title("Ko Kolobeng: Smart Restaurant Insights Demo 🇿🇦")
@@ -138,70 +128,66 @@ page_selection = st.sidebar.radio(
     ["📈 Dish Demand Forecasting", "🍽️ Ingredient Inventory Management", "🤝 Bulk Buying Advantage"]
 )
 
-# Load data once at the start of the app run
 daily_product_sales_df = load_and_preprocess_data()
 
 # --- Map actual item names from the new dataset to demo-friendly names ---
-# Get actual unique item names from the loaded dataset
-# Check if daily_product_sales_df is not empty before attempting to get unique categories
 if not daily_product_sales_df.empty:
     actual_item_names_in_data = sorted(daily_product_sales_df['category'].unique().tolist())
 else:
-    actual_item_names_in_data = [] # No data loaded
+    actual_item_names_in_data = []
 
-# Create a mapping for a selection of relevant items for the demo.
-# These are common items likely to appear in the simulated restaurant data.
+# Mapping from dataset 'family' names to restaurant-friendly display names
+# This list is based on common categories in the 'Store Sales' dataset
 item_name_mapping = {
-    'chicken': 'Grilled Chicken Portion',
-    'burger': 'Signature Beef Burger',
-    'pizza': 'Large Pizza',
-    'pasta': 'Creamy Pasta Dish',
-    'soft drink': 'Soft Drink (330ml)',
-    'fries': 'Portion of Fries',
-    'coffee': 'Traditional Coffee',
-    'sandwich': 'Chicken Sandwich',
-    'dessert': 'Daily Dessert',
-    'seafood': 'Seafood Platter'
+    'GROCERY I': 'Staple Groceries (e.g., Pap Flour)',
+    'BEVERAGES': 'Beverages (e.g., Soft Drinks)',
+    'PRODUCE': 'Fresh Produce (e.g., Vegetables)',
+    'MEATS': 'Meat Products (e.g., Beef/Chicken)',
+    'PREPARED FOODS': 'Prepared Dishes (e.g., Stews)',
+    'DAIRY': 'Dairy Products',
+    'FROZEN FOODS': 'Frozen Items',
+    'BAKERY': 'Bakery Items',
+    'DELI': 'Deli & Prepared Foods',
+    'BREAD/BAKERY': 'Bread & Baked Goods'
 }
 
-# Filter available products for the dropdown to only those with mappings for the demo selection
-# This ensures only items that exist in the loaded dataset and have a mapping are shown.
-demo_products_for_selection = [
-    item_name_mapping[item_name] for item_name in actual_item_names_in_data if item_name in item_name_mapping
-]
+demo_products_for_selection = []
+for item_name in actual_item_names_in_data:
+    if item_name in item_name_mapping:
+        demo_products_for_selection.append(item_name_mapping[item_name])
+    # Optionally, include unmapped categories if you want a wider selection, but might be less restaurant-specific
+    # else:
+    #     demo_products_for_selection.append(item_name)
 
-# Fallback to display raw item names if no specific mappings are found or data is sparse
+# Fallback if no mapped items are found (shouldn't happen with this dataset but good practice)
 if not demo_products_for_selection and actual_item_names_in_data:
-    demo_products_for_selection = actual_item_names_in_data[:min(10, len(actual_item_names_in_data))] # Take up to first 10 items
+    demo_products_for_selection = actual_item_names_in_data[:min(10, len(actual_item_names_in_data))]
 elif not actual_item_names_in_data:
-    demo_products_for_selection = ["(No items found in dataset)"] # Indicate no items if df is empty
+    demo_products_for_selection = ["(No items found in dataset)"]
 
-# Create a reverse mapping for internal use (when a user selects 'Grilled Chicken Portion', we need 'chicken')
+# Create a reverse mapping for internal use
 reverse_item_mapping = {v: k for k, v in item_name_mapping.items()}
 
 
 # --- Page 1: Dish Demand Forecasting ---
 if page_selection == "📈 Dish Demand Forecasting":
-    st.header("Predicting What Dishes Your Customers Will Order")
+    st.header("Predicting What Dishes & Ingredients Your Customers Will Need")
     st.write(
-        "Never run out of popular dishes or have too much unused inventory. "
-        "This tool predicts how much of each dish or key ingredient you'll need in the coming weeks. "
-        "It also helps identify typical sales patterns and potential spikes, useful for event planning."
+        "Never run out of popular items or have too much unused inventory. "
+        "This tool predicts how much of each product category you'll need in the coming weeks. "
+        "It helps identify typical sales patterns and potential spikes, useful for event planning."
     )
 
     st.markdown("---")
 
     if not daily_product_sales_df.empty:
         selected_display_product = st.selectbox(
-            "Select a Dish or Key Ingredient to Forecast:",
+            "Select a Product Category to Forecast:",
             demo_products_for_selection,
-            # Set index only if demo_products_for_selection is not empty
             index=0 if demo_products_for_selection and "(No items found in dataset)" not in demo_products_for_selection else 0
         )
 
         if selected_display_product and selected_display_product != "(No items found in dataset)":
-            # Get the internal 'item name' from the selected display name.
-            # Use .get() with a fallback to handle cases where an item might not have a direct reverse mapping
             selected_internal_product = reverse_item_mapping.get(selected_display_product, selected_display_product)
 
             with st.spinner(f"Generating forecast for {selected_display_product}..."):
@@ -214,7 +200,7 @@ if page_selection == "📈 Dish Demand Forecasting":
                         forecast_df,
                         x='ds',
                         y='yhat',
-                        title=f'Predicted Daily Portions/Sales for {selected_display_product}',
+                        title=f'Predicted Daily Sales for {selected_display_product}',
                         labels={'ds': 'Date', 'yhat': 'Predicted Quantity Sold'}
                     )
                     fig.add_scatter(x=model.history['ds'], y=model.history['y'], mode='markers', name='Actual Sales',
@@ -223,10 +209,9 @@ if page_selection == "📈 Dish Demand Forecasting":
                     st.plotly_chart(fig, use_container_width=True)
 
                     st.markdown("#### Forecasted Quantities for the Next 30 Days:")
-                    # Ensure future_forecast only shows dates after the last actual sales date
                     last_actual_sale_date = daily_product_sales_df['invoice_date'].max()
                     future_forecast = forecast_df[forecast_df['ds'] > last_actual_sale_date].copy()
-                    future_forecast['ds'] = future_forecast['ds'].dt.date # Display date only
+                    future_forecast['ds'] = future_forecast['ds'].dt.date
                     st.dataframe(future_forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']]
                                  .rename(columns={'ds': 'Date', 'yhat': 'Predicted Sales',
                                                    'yhat_lower': 'Lower Bound', 'yhat_upper': 'Upper Bound'})
@@ -235,12 +220,12 @@ if page_selection == "📈 Dish Demand Forecasting":
                     st.info(
                         "The `Predicted Sales` is the most likely quantity. "
                         "The `Lower Bound` and `Upper Bound` give you a range of possible sales."
-                        "\n\n*This demo uses simulated data. With your actual sales data, the forecasts will be precise and directly actionable.*"
+                        "\n\n*This demo uses a large, general retail dataset. With your actual restaurant sales data, the forecasts will be even more precise and directly actionable for your specific dishes and ingredients.*"
                     )
                 else:
                     st.warning(f"Forecast not available for '{selected_display_product}'. This demo uses a generic dataset, and this item might not have enough consistent sales history within it to generate a reliable forecast. Please try another item.")
         else:
-            st.info("Please select a dish or ingredient to view its demand forecast.")
+            st.info("Please select a product category to view its demand forecast.")
     else:
         st.error("Cannot display demand forecasting. No data was loaded. Please check data source and internet connection.")
 
@@ -261,11 +246,10 @@ elif page_selection == "🍽️ Ingredient Inventory Management":
         "We can give you precise, real-time alerts for your key ingredients, minimizing spoilage and maximizing freshness."
     )
 
-    # Simulated data for restaurant ingredients/dishes
     simulated_products_data = {
         'Item': ['Beef (kg)', 'Mielie-Meal (kg)', 'Fresh Veggies (kg)', 'Soft Drinks (case)', 'Chicken (kg)', 'Cooking Oil (L)', 'Spices (kg)', 'Bottled Water (case)', 'Dessert Prep (units)', 'Coffee Beans (kg)'],
         'Current Stock (Units)': [30, 25, 40, 10, 50, 15, 5, 8, 20, 7],
-        'Daily Predicted Usage': [15, 10, 20, 5, 20, 3, 1, 4, 8, 2], # Adjusted to be higher to reflect real shop sales
+        'Daily Predicted Usage': [15, 10, 20, 5, 20, 3, 1, 4, 8, 2],
         'Reorder Threshold (Days of Usage)': [2, 3, 1, 4, 2, 5, 7, 3, 2, 5]
     }
     simulated_df = pd.DataFrame(simulated_products_data)
@@ -276,10 +260,10 @@ elif page_selection == "🍽️ Ingredient Inventory Management":
 
     for index, row in simulated_df.iterrows():
         if row['Current Stock (Units)'] < row['Reorder Point (Units)']:
-            if row['Current Stock (Units)'] <= row['Daily Predicted Usage'] * 1.5: # Very low, urgent
+            if row['Current Stock (Units)'] <= row['Daily Predicted Usage'] * 1.5:
                 simulated_df.loc[index, 'Status'] = '🔴 Critical Stock - Reorder ASAP!'
                 simulated_df.loc[index, 'Reorder Suggestion'] = f"Order {row['Daily Predicted Usage'] * 7} units (approx. 1 week supply)"
-            else: # Low, but not critical
+            else:
                 simulated_df.loc[index, 'Status'] = '🟡 Low Stock - Consider Reordering'
                 simulated_df.loc[index, 'Reorder Suggestion'] = f"Order {row['Daily Predicted Usage'] * 5} units (approx. 5 days supply)"
 
